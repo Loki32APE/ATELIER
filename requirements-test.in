@@ -1,0 +1,3 @@
+# Browser-test environment: application dependencies plus Playwright.
+-r requirements.in
+playwright

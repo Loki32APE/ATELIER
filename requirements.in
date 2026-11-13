@@ -1,0 +1,9 @@
+# Direct application dependencies. Keep ranges intentional; the generated requirements.lock pins
+# the complete transitive dependency graph and hashes for reproducible installation.
+flask
+gunicorn
+requests
+PyGithub==2.1.1
+Flask-Limiter>=3.8,<5
+redis>=5,<7
+Pillow>=13.0.0,<14

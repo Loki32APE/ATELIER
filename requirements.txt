@@ -1,0 +1,2 @@
+# Install the reproducible, hash-verified dependency set.
+-r requirements.lock
