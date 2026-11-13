@@ -1,0 +1,71 @@
+<section id="tab-settings" class="tab-content atelier-settings" style="display:none;">
+  <header class="settings-hero">
+    <div class="settings-eyebrow">ATELIER · PREFERENCES</div>
+    <h1>Settings</h1>
+    <p>Manage your workspace, prompt defaults and local data preferences.</p>
+  </header>
+  <div class="settings-layout">
+    <nav class="settings-nav" aria-label="Settings sections">
+      <button type="button" data-settings-view="profile" aria-current="page">Local Profile</button>
+      <button type="button" data-settings-view="appearance">Appearance</button>
+      <button type="button" data-settings-view="workspace">Workspace Preferences</button>
+      <button type="button" data-settings-view="prompt">Prompt Preferences</button>
+      <button type="button" data-settings-view="ai">AI Configuration</button>
+      <button type="button" data-settings-view="storage">Storage &amp; Data</button>
+      <button type="button" data-settings-view="about">About Atelier</button>
+    </nav>
+    <div class="settings-content">
+      <div id="settingsStatus" class="settings-status" role="status" aria-live="polite"></div>
+      <section class="settings-panel" data-settings-panel="profile">
+        <h2>Local Profile</h2>
+        <p>Personalise this browser. No account or server profile is created.</p>
+        <label>Display name<input id="settingDisplayName" maxlength="60" placeholder="Your display name"></label>
+        <label>Workspace note<input id="settingProfileNote" maxlength="160" placeholder="Optional note for this workspace"></label>
+      </section>
+      <section class="settings-panel" data-settings-panel="appearance" hidden>
+        <h2>Appearance</h2>
+        <p>Atelier's approved visual system follows the Darkroom Obsidian and Warm Archival Paper asset pack.</p>
+        <label>Theme<select id="settingTheme"><option value="dark">Darkroom Obsidian</option><option value="light">Warm Archival Paper</option></select></label>
+        <label>Accent colour<select id="settingAccent"><option value="vermilion">Editorial Vermilion</option></select></label>
+        <label class="settings-check"><input id="settingReducedMotion" type="checkbox"> Reduce motion and transitions</label>
+      </section>
+      <section class="settings-panel" data-settings-panel="workspace" hidden>
+        <h2>Workspace Preferences</h2>
+        <label>Default workspace<select id="settingDefaultWorkspace"><option value="home">Home</option><option value="studio">Vision Studio</option><option value="scratchpad">Visual Lab</option></select></label>
+        <label>Default workspace mode<select id="settingDefaultMode"><option value="basic">Basic</option><option value="advanced">Advanced</option></select></label>
+      </section>
+      <section class="settings-panel" data-settings-panel="prompt" hidden>
+        <h2>Prompt Preferences</h2>
+        <label>Default target image model<select id="settingTargetModel"><option value="">Server default</option><option value="openai/gpt-image">OpenAI GPT Image</option><option value="google/gemini-2.5-flash-image">Gemini Image</option><option value="black-forest-labs/flux.1-pro">FLUX.1 Pro</option><option value="midjourney">Midjourney</option></select></label>
+        <label>Default analysis detail<select id="settingDetail"><option value="fast">Fast</option><option value="balanced">Balanced</option><option value="detailed">Detailed</option></select></label>
+        <label>Prompt language<select id="settingLanguage"><option value="English">English</option><option value="Hindi">Hindi</option><option value="Odia">Odia</option></select></label>
+        <label class="settings-check"><input id="settingPreserveInstructions" type="checkbox" checked disabled> Preserve explicit instructions verbatim (required)</label>
+      </section>
+      <section class="settings-panel" data-settings-panel="ai" hidden>
+        <h2>AI Configuration</h2>
+        <div class="settings-info-card"><strong>Reasoning provider</strong><span>OpenRouter · configured server-side</span></div>
+        <div class="settings-info-card"><strong>Target image model</strong><span>Selected separately from the reasoning provider. Your default is managed in Prompt Preferences.</span></div>
+        <p class="settings-security-note">API keys and provider secrets are never stored in browser settings. Configure them only in your hosting provider's secret manager.</p>
+      </section>
+      <section class="settings-panel" data-settings-panel="storage" hidden>
+        <h2>Storage &amp; Data</h2>
+        <p id="settingsStorageUsage">Checking local storage…</p>
+        <div class="settings-action-row">
+          <button type="button" id="settingsExportBtn" class="btn btn-secondary">Export prompt backup</button>
+          <label class="btn btn-secondary" for="settingsImportInput">Import prompt backup</label>
+          <input id="settingsImportInput" type="file" accept="application/json,.json" hidden>
+        </div>
+        <button type="button" id="settingsClearHistoryBtn" class="btn btn-secondary">Clear generation history</button>
+        <button type="button" id="settingsResetBtn" class="btn btn-danger">Reset local Atelier data</button>
+        <p class="settings-security-note">Reset removes saved prompts, history, projects, creative profiles, local references and local preferences from this browser.</p>
+      </section>
+      <section class="settings-panel" data-settings-panel="about" hidden>
+        <h2>About Atelier</h2>
+        <div class="settings-info-card"><strong>Atelier Prompt Engine</strong><span>Where Imagination Meets Intelligence.</span></div>
+        <div class="settings-info-card"><strong>Version</strong><span>2.5 · Development workspace</span></div>
+        <div class="settings-info-card"><strong>Design system</strong><span>Darkroom Obsidian &amp; Warm Archival Paper</span></div>
+      </section>
+      <div class="settings-footer"><button type="button" id="settingsSaveBtn" class="btn btn-primary">Save settings</button></div>
+    </div>
+  </div>
+</section>

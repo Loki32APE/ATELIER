@@ -1,0 +1,61 @@
+  <!-- Modal Backdrop for Bottom Sheet -->
+  <div class="bottom-sheet-backdrop" id="outputBackdrop" onclick="minimizeOutput()"></div>
+
+  <!-- Dynamic Bottom Sheet (Persistent Synthesis Output) -->
+  <section class="card output-sheet" id="outputCard" role="dialog" aria-modal="true" aria-labelledby="outputHeadingTitle" aria-hidden="true" tabindex="-1">
+    <button type="button" class="sheet-drag-pill" aria-label="Minimize prompt output" onclick="minimizeOutput()"></button>
+    
+    <div class="sheet-top-controls">
+      <div class="sheet-title-meta">
+        <span class="sheet-primary-title" id="outputHeadingTitle">Master Prompt</span>
+        <span class="sheet-model-badge" id="modelBadge">Nemotron 3.5 VL</span>
+      </div>
+
+      <div class="sheet-action-group">
+        <button type="button" class="sheet-icon-btn" onclick="copyFullPrompt()" title="Copy prompt" aria-label="Copy prompt">Copy</button>
+        <button type="button" class="sheet-icon-btn" onclick="toggleSaveBox('lookSaveBox')" title="Save look" aria-label="Save look">Save</button>
+        <button type="button" class="sheet-icon-btn" onclick="minimizeOutput()" title="Minimize" aria-label="Minimize output">Minimize</button>
+        <button type="button" class="sheet-icon-btn close-btn" onclick="clearOutputCompletely()" title="Close and clear" aria-label="Close and clear output">Close</button>
+      </div>
+    </div>
+
+    <!-- Save Modal Popup -->
+    <div class="save-name-pop" id="lookSaveBox" style="display:none;">
+      <input type="text" id="lookNameInput" class="custom-input" aria-label="Saved look title" placeholder="Title for this look...">
+      <button class="btn btn-primary btn-small" onclick="saveCurrentLook()">Store</button>
+    </div>
+
+    <!-- Dynamic Output Format Tabs -->
+    <div class="sheet-format-tabs" role="group" aria-label="Prompt output format">
+      <button type="button" class="format-pill active" id="fmt-prompt" aria-pressed="true" onclick="setFormat('prompt')">Prompt</button>
+      <button type="button" class="format-pill" id="fmt-natural" aria-pressed="false" onclick="setFormat('natural')">Natural</button>
+      <button type="button" class="format-pill" id="fmt-optimized" aria-pressed="false" onclick="setFormat('optimized')">Optimized</button>
+      <button type="button" class="format-pill" id="fmt-json" aria-pressed="false" onclick="setFormat('json')">JSON</button>
+      <button type="button" class="format-pill" id="fmt-raw" aria-pressed="false" onclick="setFormat('raw')" style="display:none;">RAW Prompt</button>
+    </div>
+
+    <div class="format-info-caption" id="formatHint">Structured editorial skeleton: Tap any section block to edit text directly.</div>
+    <section class="studio-quality-review" id="studioQualityReview" hidden role="status" aria-live="polite">
+      <div class="studio-quality-head"><strong>Prompt quality review</strong><span id="studioQualityStatus" aria-live="polite">Ready</span></div>
+      <ul id="studioQualityWarnings"></ul>
+      <div id="studioQualitySuggestions" hidden><strong>Suggested checks</strong><ul id="studioQualitySuggestionItems"></ul></div>
+      <p>Atelier does not silently rewrite your prompt. Review these notes and edit the prompt if needed.</p>
+    </section>
+
+    <div class="sheet-scroll-body" id="sheetScrollBody">
+      <div id="diffBadgeContainer" class="diff-badge-bar" style="display:none;">
+        <span id="diffBadgeText">Compacted prompt</span>
+      </div>
+      <div id="sectionView" class="cards-flow-layout"></div>
+      <pre id="textView" class="raw-code-box" style="display:none;"></pre>
+    </div>
+
+    <div id="optimizeArea" class="sheet-optimize-footer" style="display:none;">
+      <button class="btn btn-primary btn-full" id="optimizeBtn" onclick="startOptimize()">Optimize prompt</button>
+    </div>
+
+    <div class="sheet-bottom-bar">
+      <span class="char-count" id="outputCharCount">0 / ~2000 chars</span>
+      <span class="micro-note">Tap minimize to keep prompt accessible</span>
+    </div>
+  </section>

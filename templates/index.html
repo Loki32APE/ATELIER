@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Atelier Prompt Engine</title>
+  <link rel="manifest" href="{{ url_for('static', filename='manifest.json') }}">
+  <link rel="icon" type="image/svg+xml" href="{{ url_for('static', filename='brand/atelier-mark.svg') }}">
+  <link rel="apple-touch-icon" href="{{ url_for('static', filename='brand/atelier-app-icon.svg') }}">
+  <meta name="theme-color" content="#111215">
+
+  <meta name="description" content="Build and refine image prompts with Atelier Prompt Engine." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@500;600;700&family=JetBrains+Mono:wght@400;500;600&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <script>try { const theme = JSON.parse(localStorage.getItem('ape_settings_v1') || '{}').theme; document.documentElement.dataset.theme = theme === 'light' ? 'light' : 'dark'; } catch (_) {}</script>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/brand-tokens.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}?v=20261113-adaptive-layout">
+  <link rel="stylesheet" href="{{ url_for('static', filename='theme.css') }}?v=20261113-viewfinder">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/vision-lab.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/vision-studio.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/library.css') }}?v=20261113-adaptive-layout">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/settings.css') }}?v=20261113-adaptive-layout">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/app-shell.css') }}?v=20261113-adaptive-layout">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/brand-refresh.css') }}?v=20261113-adaptive-layout">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/production-brand-system.css') }}?v=20261113-studio-reference-cards">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/landing.css') }}?v=20261113-theme-brand-links">
+</head>
+<body data-active-tab="landing">
+  <div class="top-progress" id="topProgress"></div>
+  <div class="wrap">
+    
+{% include 'partials/header.html' %}
+{% include 'partials/drawer.html' %}
+{% include 'partials/landing.html' %}
+{% include 'partials/home.html' %}
+{% include 'partials/studio.html' %}
+{% include 'partials/scratchpad.html' %}
+{% include 'partials/library.html' %}
+{% include 'partials/saved.html' %}
+{% include 'partials/history.html' %}
+{% include 'partials/info_pages.html' %}
+{% include 'partials/settings.html' %}
+  </div><!-- /.wrap -->
+
+{% include 'partials/picker.html' %}
+{% include 'partials/output_sheet.html' %}
+{% include 'partials/overlays.html' %}
+  <!-- Haptic Toast Notification -->
+  <div class="toast-bubble" id="toast"></div>
+
+  <!-- External Static Script Link -->
+  <script src="{{ url_for('static', filename='js/core.js') }}"></script>
+  <script src="{{ url_for('static', filename='js/ui.js') }}?v=20261113-public-landing"></script>
+  <script src="{{ url_for('static', filename='js/image-upload.js') }}"></script>
+  <script src="{{ url_for('static', filename='js/generation.js') }}"></script>
+  <script src="{{ url_for('static', filename='js/output.js') }}"></script>
+  <script src="{{ url_for('static', filename='js/history.js') }}"></script>
+  <script src="{{ url_for('static', filename='js/library.js') }}"></script>
+  <script src="{{ url_for('static', filename='js/scratchpad.js') }}"></script>
+  <script src="{{ url_for('static', filename='js/appearance.js') }}"></script>
+  <script src="{{ url_for('static', filename='js/main.js') }}?v=20261113-public-landing"></script>
+  <script src="{{ url_for('static', filename='js/catalog-service.js') }}"></script>
+  <script src="{{ url_for('static', filename='js/vision-lab.js') }}"></script>
+  <script src="{{ url_for('static', filename='js/theme.js') }}"></script>
+  <script src="{{ url_for('static', filename='js/jewellery.js') }}"></script>
+  <script src="{{ url_for('static', filename='js/settings.js') }}?v=20261113-public-landing"></script>
+  <script>
+    function showComingSoon(name) {
+      var t = document.getElementById("toast");
+      if (!t) return;
+      t.textContent = name + " is not available in this build.";
+      t.style.display = "block";
+      clearTimeout(window._csT);
+      window._csT = setTimeout(function () { t.style.display = "none"; }, 1800);
+    }
+  </script>
+</body>
+</html>
+

@@ -1,0 +1,35 @@
+    <!-- Left Drawer (menu) -->
+    <button class="menu-btn" onclick="toggleDrawer()" aria-label="Toggle navigation" aria-expanded="true"><span></span><span></span><span></span></button>
+    <div id="drawerBackdrop" class="drawer-backdrop" onclick="closeDrawer()"></div>
+    <aside id="drawer" class="drawer">
+      <button type="button" class="drawer-brand" onclick="switchMainTab('landing')" aria-label="Return to Atelier landing page">
+        <img src="{{ url_for('static', filename='brand/atelier-mark.svg') }}" data-theme-dark="{{ url_for('static', filename='brand/atelier-mark.svg') }}" data-theme-light="{{ url_for('static', filename='brand/atelier-mark-archival.svg') }}" alt="" width="56" height="56">
+        <div><strong>ATELIER</strong><span>PROMPT ENGINE</span></div>
+      </button>
+      <div class="drawer-head">Workspace</div>
+      <button class="drawer-item active" data-tab="home" onclick="switchMainTab('home')"><span class="drawer-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="m3 10 9-7 9 7v10a1 1 0 0 1-1 1h-5v-7H9v7H4a1 1 0 0 1-1-1z"/></svg></span>Home</button>
+
+      <div class="drawer-group">Create</div>
+      <button class="drawer-item" data-tab="studio" onclick="switchMainTab('studio')"><span class="drawer-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><use href="{{ url_for('static', filename='brand/icons.svg') }}#ico-mod-camera"/></svg></span>Studio</button>
+      <button class="drawer-item" data-tab="scratchpad" onclick="switchMainTab('scratchpad')"><span class="drawer-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><use href="{{ url_for('static', filename='brand/icons.svg') }}#ico-dashed-lines"/></svg></span>Visual Lab</button>
+
+      <div class="drawer-group">Library</div>
+      <button class="drawer-item" data-tab="library" onclick="switchMainTab('library')"><span class="drawer-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><use href="{{ url_for('static', filename='brand/icons.svg') }}#ico-storage-stack"/></svg></span>Library<span class="drawer-count" id="drawerLibraryCount"></span></button>
+
+      <div class="drawer-group">Info</div>
+      <button class="drawer-item" data-tab="about" onclick="switchMainTab('about')"><span class="drawer-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 11v5m0-8h.01"/></svg></span>About</button>
+      <button class="drawer-item" data-tab="contact" onclick="switchMainTab('contact')"><span class="drawer-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><use href="{{ url_for('static', filename='brand/icons.svg') }}#ico-feedback-mail"/></svg></span>Help &amp; Feedback</button>
+      <button class="drawer-item" data-tab="settings" onclick="switchMainTab('settings')"><span class="drawer-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><use href="{{ url_for('static', filename='brand/icons.svg') }}#ico-mod-theme"/></svg></span>Settings</button>
+      <div class="drawer-group">Policies</div>
+      <button class="drawer-item" data-tab="terms" onclick="switchMainTab('terms')">Terms of Use</button>
+      <button class="drawer-item" data-tab="privacy" onclick="switchMainTab('privacy')">Privacy</button>
+      <div class="drawer-version">Atelier Prompt Engine · 2.5</div>
+    </aside>
+    <nav class="mobile-bottom-nav" aria-label="Primary navigation">
+      <button class="drawer-item" data-tab="home" onclick="switchMainTab('home')"><span class="drawer-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="m3 10 9-7 9 7v10a1 1 0 0 1-1 1h-5v-7H9v7H4a1 1 0 0 1-1-1z"/></svg></span><span>Home</span></button>
+      <button class="drawer-item" data-tab="scratchpad" onclick="switchMainTab('scratchpad')"><span class="drawer-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><use href="{{ url_for('static', filename='brand/icons.svg') }}#ico-dashed-lines"/></svg></span><span>Visual Lab</span></button>
+      <button class="drawer-item" data-tab="studio" onclick="switchMainTab('studio')"><span class="drawer-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><use href="{{ url_for('static', filename='brand/icons.svg') }}#ico-mod-camera"/></svg></span><span>Studio</span></button>
+      <button class="drawer-item" data-tab="library" onclick="switchMainTab('library')"><span class="drawer-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><use href="{{ url_for('static', filename='brand/icons.svg') }}#ico-storage-stack"/></svg></span><span>Library</span></button>
+      <button class="drawer-item" data-tab="settings" onclick="switchMainTab('settings')"><span class="drawer-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 3v2m0 14v2M3 12h2m14 0h2M5.6 5.6 7 7m10 10 1.4 1.4m0-12.8L17 7M7 17l-1.4 1.4"/><circle cx="12" cy="12" r="4"/></svg></span><span>Settings</span></button>
+    </nav>
+

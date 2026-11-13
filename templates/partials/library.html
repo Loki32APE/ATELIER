@@ -1,0 +1,77 @@
+<section id="tab-library" class="tab-content atelier-library" style="display:none;">
+  <header class="library-hero">
+    <div class="library-eyebrow">ATELIER · WORKSPACE ARCHIVE</div>
+    <h1>Library</h1>
+    <p>Organise projects, prompts, references, favourites and generation history.</p>
+  </header>
+
+  <nav class="library-tabs" role="tablist" aria-label="Library sections">
+    <button type="button" id="library-tab-projects" data-library-view="projects" role="tab" aria-controls="library-panel-projects" tabindex="-1" aria-selected="false">My Projects</button>
+    <button type="button" id="library-tab-prompts" data-library-view="prompts" role="tab" aria-controls="library-panel-prompts" tabindex="0" aria-selected="true">Prompt Library</button>
+    <button type="button" id="library-tab-references" data-library-view="references" role="tab" aria-controls="library-panel-references" tabindex="-1" aria-selected="false">Reference Library</button>
+    <button type="button" id="library-tab-favorites" data-library-view="favorites" role="tab" aria-controls="library-panel-favorites" tabindex="-1" aria-selected="false">Favorites</button>
+    <button type="button" id="library-tab-history" data-library-view="history" role="tab" aria-controls="library-panel-history" tabindex="-1" aria-selected="false">History</button>
+  </nav>
+
+  <div id="libraryStatus" class="library-status" role="status" aria-live="polite"></div>
+
+  <section class="library-panel" id="library-panel-projects" role="tabpanel" aria-labelledby="library-tab-projects" data-library-panel="projects" hidden>
+    <div class="library-panel-head"><div><h2>My Projects</h2><p>Group saved prompts into reusable creative projects.</p></div></div>
+    <form id="libraryProjectForm" class="library-project-form">
+      <label>Project name<input id="libraryProjectName" maxlength="60" required placeholder="e.g. Editorial Portrait Collection"></label>
+      <label>Description<input id="libraryProjectDescription" maxlength="180" placeholder="Optional project notes"></label>
+      <button class="btn btn-primary" type="submit">Create project</button>
+    </form>
+    <div id="libraryProjectList" class="library-project-grid"></div>
+  </section>
+
+  <section class="library-panel" id="library-panel-prompts" role="tabpanel" aria-labelledby="library-tab-prompts" data-library-panel="prompts">
+    <div class="library-panel-head"><div><h2>Prompt Library</h2><p>Search, organise, favourite and version your saved prompts.</p></div></div>
+    <div class="library-toolbar">
+      <input id="librarySearch" type="search" placeholder="Search prompt names and content…" aria-label="Search prompts">
+      <select id="libraryProjectFilter" aria-label="Filter by project"><option value="">All projects</option></select>
+    </div>
+    <div class="library-bulkbar">
+      <label><input id="librarySelectAllPrompts" type="checkbox"> Select all</label>
+      <button type="button" id="libraryBulkFavoriteBtn" class="btn btn-secondary btn-small">Favorite selected</button>
+      <button type="button" id="libraryBulkDeleteBtn" class="btn btn-danger btn-small">Delete selected</button>
+      <button type="button" id="libraryCompareBtn" class="btn btn-secondary btn-small">Compare 2 versions</button>
+      <button type="button" id="libraryExportBtn" class="btn btn-secondary btn-small">Export backup</button>
+    </div>
+    <div id="libraryPromptList" class="library-item-grid"></div>
+    <section id="libraryComparePanel" class="library-compare" hidden>
+      <div class="library-panel-head"><div><h3>Version comparison</h3><p>Compare the selected prompt versions without changing either saved item.</p></div><button type="button" id="libraryCloseCompare" class="btn btn-secondary btn-small">Close</button></div>
+      <div class="library-compare-grid"><label id="libraryCompareLabelA">Version A<textarea id="libraryCompareA" rows="12" readonly></textarea></label><label id="libraryCompareLabelB">Version B<textarea id="libraryCompareB" rows="12" readonly></textarea></label></div>
+    </section>
+  </section>
+
+  <section class="library-panel" id="library-panel-references" role="tabpanel" aria-labelledby="library-tab-references" data-library-panel="references" hidden>
+    <div class="library-panel-head"><div><h2>Reference Library</h2><p>Keep reusable visual references on this device. Files stay in browser storage and are not included in the JSON prompt backup.</p></div></div>
+    <div class="library-upload-row">
+      <label for="libraryReferenceUpload" class="btn btn-primary">Add reference images</label>
+      <input id="libraryReferenceUpload" type="file" accept="image/jpeg,image/png,image/webp" multiple hidden>
+      <span>JPEG, PNG or WebP · Maximum 8 MB per image</span>
+    </div>
+    <div class="library-bulkbar">
+      <label><input id="librarySelectAllReferences" type="checkbox"> Select all</label>
+      <button type="button" id="libraryBulkDeleteReferences" class="btn btn-danger btn-small">Delete selected</button>
+    </div>
+    <div id="libraryReferenceList" class="library-reference-grid"></div>
+  </section>
+
+  <section class="library-panel" id="library-panel-favorites" role="tabpanel" aria-labelledby="library-tab-favorites" data-library-panel="favorites" hidden>
+    <div class="library-panel-head"><div><h2>Favorites</h2><p>Your bookmarked prompts, ready to reuse.</p></div></div>
+    <div id="libraryFavoriteList" class="library-item-grid"></div>
+  </section>
+
+  <section class="library-panel" id="library-panel-history" role="tabpanel" aria-labelledby="library-tab-history" data-library-panel="history" hidden>
+    <div class="library-panel-head"><div><h2>Generation History</h2><p>Recent prompt generations. History remains separate from saved prompts.</p></div></div>
+    <div class="library-toolbar"><input id="libraryHistorySearch" type="search" placeholder="Search history…" aria-label="Search history"></div>
+    <div class="library-bulkbar">
+      <label><input id="librarySelectAllHistory" type="checkbox"> Select all</label>
+      <button type="button" id="libraryBulkDeleteHistory" class="btn btn-danger btn-small">Delete selected</button>
+      <button type="button" id="libraryClearHistory" class="btn btn-secondary btn-small">Clear history</button>
+    </div>
+    <div id="libraryHistoryList" class="library-item-grid"></div>
+  </section>
+</section>

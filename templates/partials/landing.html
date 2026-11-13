@@ -1,0 +1,89 @@
+<section id="tab-landing" class="tab-content landing-view" aria-label="Atelier introduction">
+  <header class="landing-topbar">
+    <div class="landing-topbar-inner">
+      <button type="button" class="landing-brand" onclick="switchMainTab('landing')" aria-label="Atelier home">
+        <img src="{{ url_for('static', filename='brand/atelier-mark.svg') }}" data-theme-dark="{{ url_for('static', filename='brand/atelier-mark.svg') }}" data-theme-light="{{ url_for('static', filename='brand/atelier-mark-archival.svg') }}" alt="" width="32" height="32">
+        <span><strong>Atelier</strong><small>Prompt Engine</small></span>
+      </button>
+      <div class="landing-actions">
+        <button type="button" class="landing-icon-btn" onclick="toggleAtelierTheme()" aria-label="Switch theme" title="Switch theme">
+          <svg class="landing-sun" viewBox="0 0 24 24" aria-hidden="true"><use href="{{ url_for('static', filename='brand/icons.svg') }}#util-sun"/></svg>
+          <svg class="landing-moon" viewBox="0 0 24 24" aria-hidden="true"><use href="{{ url_for('static', filename='brand/icons.svg') }}#util-moon"/></svg>
+        </button>
+        <button type="button" class="landing-launch landing-launch-small" onclick="launchAtelierWorkspace()">Launch Workspace</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="landing-container">
+    <section class="landing-hero">
+      <img class="landing-emblem" src="{{ url_for('static', filename='brand/atelier-mark.svg') }}" data-theme-dark="{{ url_for('static', filename='brand/atelier-mark.svg') }}" data-theme-light="{{ url_for('static', filename='brand/atelier-mark-archival.svg') }}" alt="Atelier prism mark" width="96" height="96">
+      <span class="landing-badge">CREATIVE PROMPT WORKSPACE</span>
+      <h1>Atelier Prompt Engine</h1>
+      <p class="landing-intro">Build precise image prompts from visual references or a structured creative brief. Refine the details, then take your direction wherever you create.</p>
+      <div class="landing-hero-actions">
+        <button type="button" class="landing-launch" onclick="launchAtelierWorkspace()">Launch Workspace</button>
+        <a class="landing-secondary" href="#landing-how">How it works</a>
+      </div>
+      <div class="landing-trust-strip"><span>TEXT-FIRST PROMPT BUILDING</span><i></i><span>REFERENCE-LED ANALYSIS</span><i></i><span>ADAPTIVE WORKSPACE</span></div>
+    </section>
+
+    <section class="landing-section" aria-labelledby="landing-comparison-title">
+      <div class="landing-section-head landing-comparison-head">
+        <div><span class="landing-mono">01 / PROMPT ARCHITECTURE</span><h2 id="landing-comparison-title">A clearer direction, from the first idea</h2></div>
+        <div class="landing-segment" role="group" aria-label="Prompt example">
+          <button type="button" class="is-active" aria-pressed="true" data-example="raw" onclick="setLandingExample('raw', this)">Starting idea</button>
+          <button type="button" aria-pressed="false" data-example="compiled" onclick="setLandingExample('compiled', this)">Refined direction</button>
+        </div>
+      </div>
+      <div class="landing-example-card">
+        <div class="landing-example-meta"><span class="landing-mono" id="landingExampleLabel">A starting idea</span><span class="landing-example-mark">EXAMPLE</span></div>
+        <p id="landingExampleText">A woman in a dramatic red outfit, standing in an old palace.</p>
+      </div>
+    </section>
+
+    <section class="landing-section" aria-labelledby="landing-engine-title">
+      <div class="landing-section-head"><span class="landing-mono">02 / THE WORKSPACE</span><h2 class="landing-section-title" id="landing-engine-title">Tools for shaping visual ideas</h2></div>
+      <div class="landing-feature-grid">
+        <article class="landing-feature-card">
+          <div class="landing-keyframe" aria-hidden="true"><svg viewBox="0 0 240 86"><rect x="8" y="8" width="96" height="70" rx="3"/><circle cx="56" cy="32" r="11"/><path d="M36 70c0-14 40-14 40 0M110 43h20"/><rect x="136" y="8" width="96" height="70" rx="3"/><path d="M168 22h32l8 44h-48z"/></svg></div>
+          <span class="landing-mono landing-accent">01 / REFERENCE-LED</span><h3>Vision Studio</h3><p>Bring a Look reference and an Outfit reference together, add your direction, then review the resulting prompt.</p>
+        </article>
+        <article class="landing-feature-card">
+          <div class="landing-keyframe" aria-hidden="true"><svg viewBox="0 0 240 86"><rect x="14" y="10" width="212" height="16" rx="3"/><rect x="14" y="35" width="212" height="16" rx="3"/><rect x="14" y="60" width="212" height="16" rx="3"/><path d="M25 18h72m-72 25h112m-112 25h88"/></svg></div>
+          <span class="landing-mono landing-accent">02 / TEXT-FIRST</span><h3>Visual Lab</h3><p>Shape a prompt through clear sections, from camera and environment to styling, appearance, and final output.</p>
+        </article>
+        <article class="landing-feature-card">
+          <div class="landing-keyframe" aria-hidden="true"><svg viewBox="0 0 240 86"><rect x="14" y="10" width="58" height="19" rx="3"/><rect x="82" y="10" width="65" height="19" rx="3"/><rect x="157" y="10" width="69" height="19" rx="3"/><rect x="14" y="39" width="212" height="38" rx="3"/><path d="M25 51h164m-164 14h119"/></svg></div>
+          <span class="landing-mono landing-accent">03 / PROMPT CONTROL</span><h3>Refine and compile</h3><p>Adjust the creative details, choose a target format where available, and copy the prompt for your image workflow.</p>
+        </article>
+        <article class="landing-feature-card">
+          <div class="landing-keyframe" aria-hidden="true"><svg viewBox="0 0 240 86"><rect x="14" y="10" width="98" height="66" rx="3"/><rect x="128" y="10" width="98" height="66" rx="3"/><path d="M24 26h70m-70 13h54m60-13h70m-70 13h60M138 54h50m-50 10h39"/></svg></div>
+          <span class="landing-mono landing-accent">04 / YOUR LIBRARY</span><h3>Keep your work close</h3><p>Save prompt versions in your local library and export a backup when you want to move your work.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="landing-section" id="landing-how" aria-labelledby="landing-how-title">
+      <div class="landing-section-head"><span class="landing-mono">03 / A SIMPLE WORKFLOW</span><h2 class="landing-section-title" id="landing-how-title">From rough thought to ready prompt</h2></div>
+      <div class="landing-steps">
+        <article class="landing-step"><span class="landing-mono landing-accent">STEP 01</span><h3>Choose a starting point</h3><p>Use reference images in Studio or build your direction with the text-first Visual Lab.</p></article>
+        <article class="landing-step"><span class="landing-mono landing-accent">STEP 02</span><h3>Shape the details</h3><p>Set the style, framing, environment, and constraints that matter for your image.</p></article>
+        <article class="landing-step"><span class="landing-mono landing-accent">STEP 03</span><h3>Review and use it</h3><p>Review the compiled prompt, make edits, then copy or save it to your library.</p></article>
+      </div>
+    </section>
+
+    <section class="landing-section landing-faq-section" aria-labelledby="landing-faq-title">
+      <div class="landing-section-head"><span class="landing-mono">04 / GOOD TO KNOW</span><h2 class="landing-section-title" id="landing-faq-title">Workspace essentials</h2></div>
+      <details class="landing-faq" open><summary>Where is my work saved?</summary><p>Saved prompts and preferences stay in this browser. You can export a backup from the Library or Settings.</p></details>
+      <details class="landing-faq"><summary>Does reference analysis use an AI service?</summary><p>Studio analysis uses the provider configured for your app. Reference images are sent for analysis only when you request that action. Check your configured provider’s terms for its handling of requests.</p></details>
+      <details class="landing-faq"><summary>Do I need to create an account?</summary><p>No Atelier account is required. Some AI features need a provider connection configured by the person who set up the app.</p></details>
+    </section>
+  </main>
+
+  <footer class="landing-footer">
+    <div class="landing-footer-brand"><img src="{{ url_for('static', filename='brand/atelier-mark.svg') }}" data-theme-dark="{{ url_for('static', filename='brand/atelier-mark.svg') }}" data-theme-light="{{ url_for('static', filename='brand/atelier-mark-archival.svg') }}" alt="" width="24" height="24"><strong>Atelier Prompt Engine</strong></div>
+    <div class="landing-footer-links"><button type="button" onclick="switchMainTab('privacy')">Privacy</button><button type="button" onclick="switchMainTab('terms')">Terms</button><button type="button" onclick="switchMainTab('about')">About</button><button type="button" onclick="launchAtelierWorkspace()">Open workspace</button></div>
+    <span class="landing-mono">A CREATIVE WORKSPACE FOR VISUAL DIRECTION</span>
+  </footer>
+</section>

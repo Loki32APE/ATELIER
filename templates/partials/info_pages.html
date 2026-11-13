@@ -1,0 +1,38 @@
+    <!-- ==================== INFO PAGES ==================== -->
+    <section id="tab-about" class="tab-content info-page" style="display: none;">
+      <header class="info-hero"><div class="info-eyebrow">ATELIER · THE WORKSPACE</div><h1>About Atelier</h1><p>A focused creative workspace for building precise image prompts and turning visual references into clear direction.</p></header>
+      <div class="info-grid">
+        <article class="info-card"><span class="info-card-index">01 · BUILD</span><h2>Visual Lab</h2><p>Shape a prompt from a structured creative brief. Start with a few choices, then add detailed constraints when you need them.</p></article>
+        <article class="info-card"><span class="info-card-index">02 · ANALYSE</span><h2>Vision Studio</h2><p>Use Look and Outfit references independently, add creative direction, and refine the prompt after analysis.</p></article>
+        <article class="info-card info-card-wide"><span class="info-card-index">YOUR WORKSPACE</span><h2>Local by design</h2><p>Saved prompts, projects, preferences and reference images stay in this browser. Model credentials are configured on the server and are not stored in browser settings.</p></article>
+      </div>
+      <div class="info-version">ATELIER PROMPT ENGINE <span>·</span> VERSION 2.5 <span>·</span> BRUSHED TITANIUM</div>
+    <nav class="policy-links" aria-label="Product policies"><button type="button" onclick="switchMainTab('terms')">Terms of Use</button><button type="button" onclick="switchMainTab('privacy')">Privacy</button></nav>
+    </section>
+    <section id="tab-contact" class="tab-content info-page" style="display: none;">
+      <header class="info-hero"><div class="info-eyebrow">ATELIER · SUPPORT</div><h1>Share a clear bug report</h1><p>This local development build does not have a support inbox connected yet. Use this checklist when you send an issue to the project maintainer.</p></header>
+      <article class="info-card support-card"><span class="info-card-index">HELP THE TEAM REPRODUCE IT</span><ol><li>Name the screen you were using.</li><li>Write what you clicked and what you expected.</li><li>Describe what happened and attach a screenshot if useful.</li></ol><p class="support-privacy">Never include an API key, password or private reference image in a bug report.</p><button type="button" class="btn btn-secondary" onclick="copySupportTemplate()">Copy issue template</button></article>
+    </section>
+    <section id="tab-terms" class="tab-content info-page policy-page" style="display:none;">
+      <header class="info-hero"><div class="info-eyebrow">ATELIER · PRODUCT TERMS</div><h1>Terms of Use</h1><p>Plain-language terms for this local development build. These terms describe the current app behavior and do not replace a reviewed agreement for a public commercial service.</p></header>
+      <div class="info-grid">
+        <article class="info-card"><span class="info-card-index">01 · RESPONSIBLE USE</span><h2>Your content</h2><p>Use the app only with content you are allowed to use. You are responsible for permissions, privacy, and applicable rules when uploading reference images or sharing generated prompts.</p></article>
+        <article class="info-card"><span class="info-card-index">02 · AI OUTPUT</span><h2>Review before use</h2><p>Generated text can be incomplete, inaccurate, or unsuitable. Review it before relying on it, publishing it, or using it with another image service. Atelier does not promise a particular output or result.</p></article>
+        <article class="info-card"><span class="info-card-index">03 · PROVIDERS</span><h2>Third-party services</h2><p>AI features require a server configured with a model provider. Requests are processed under that provider's terms and policies. Do not submit secrets or sensitive personal information in prompts.</p></article>
+        <article class="info-card"><span class="info-card-index">04 · LOCAL DATA</span><h2>Your device</h2><p>Saved work is stored in this browser profile. You can remove it in Settings; clearing browser storage or changing browsers can also remove it.</p></article>
+        <article class="info-card info-card-wide"><span class="info-card-index">05 · AVAILABILITY</span><h2>Development build</h2><p>This software is supplied for evaluation and may change or become unavailable. Keep your own copies of prompts you need. The operator may disable features to maintain or secure the installation.</p></article>
+      </div>
+      <nav class="policy-links" aria-label="Product policies"><button type="button" onclick="switchMainTab('privacy')">Read Privacy</button></nav>
+    </section>
+    <section id="tab-privacy" class="tab-content info-page policy-page" style="display:none;">
+      <header class="info-hero"><div class="info-eyebrow">ATELIER · DATA HANDLING</div><h1>Privacy</h1><p>What this app stores in your browser and what leaves the browser when you ask an AI feature to run.</p></header>
+      <div class="info-grid">
+        <article class="info-card"><span class="info-card-index">ON THIS DEVICE</span><h2>Saved workspace data</h2><p>Preferences, creative profiles, saved prompts, projects, and saved reference-library images are kept in this browser's local storage or IndexedDB. This build does not sync them between devices. Remove them from Settings or the Library.</p></article>
+        <article class="info-card"><span class="info-card-index">WHEN YOU GENERATE</span><h2>Prompts and images</h2><p>When you start generation, prompt details and any selected Studio reference images are sent to the Atelier server, then to the configured model through OpenRouter for processing. Visual Lab sends the brief text. The model provider receives and handles that request under its own policies.</p></article>
+        <article class="info-card"><span class="info-card-index">TEMPORARY PROCESSING</span><h2>Job records</h2><p>The server temporarily keeps job status and results so the app can return them to you. In the standard configuration, finished records are cleaned up after about one hour. Queue payloads have a default 24-hour lifetime; the server operator can change it. Hosting operators may have separate infrastructure logs and backups.</p></article>
+        <article class="info-card"><span class="info-card-index">CREDENTIALS</span><h2>Provider keys</h2><p>Provider credentials are configured on the server and are not stored in browser settings. Never put API keys, passwords, or other secrets into a prompt or image.</p></article>
+        <article class="info-card info-card-wide"><span class="info-card-index">YOUR CHOICE</span><h2>Use only what you are comfortable sharing</h2><p>You can use the Library and build prompts without starting an AI request. Before using generation or image analysis, consider whether the prompt and reference images are appropriate to send to the configured model provider.</p></article>
+      </div>
+      <nav class="policy-links" aria-label="Product policies"><button type="button" onclick="switchMainTab('terms')">Read Terms of Use</button></nav>
+    </section>
+

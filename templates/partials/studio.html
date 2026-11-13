@@ -1,0 +1,184 @@
+    <!-- ==================== TAB 1: STUDIO (Vision Mode) ==================== -->
+    <main id="tab-studio" class="tab-content studio-workspace" style="display: none;" data-mode="basic">
+      <section class="vs-hero">
+        <div><span class="vs-eyebrow">ATELIER STUDIO · REFERENCE INTELLIGENCE</span><h1>See deeper. Create with intention.</h1><p>Bring visual references together with your creative direction.</p></div>
+        <div class="vs-mode-control" role="group" aria-label="Studio workspace mode">
+          <button type="button" class="vs-mode-btn active" id="studioModeBasic" aria-pressed="true" onclick="setStudioMode('basic')">Basic</button>
+          <button type="button" class="vs-mode-btn" id="studioModeAdvanced" aria-pressed="false" onclick="setStudioMode('advanced')">Advanced</button>
+        </div>
+      </section>
+      <section class="vs-basic-brief" id="studioBasicControls"><label for="studioBrief">Creative direction <span>Optional</span></label><textarea id="studioBrief" rows="2" maxlength="1500" placeholder="Describe the mood or one important creative change you want..."></textarea><p>Atelier handles the reference details. Add only what you want to guide or change.</p></section>
+      
+      <!-- Dual reference cards, following the attached Atelier HTML reference. -->
+      <section class="studio-viewport" aria-label="Dual reference engine">
+        <div class="card studio-reference-intro">
+          <div><span class="pill-badge pill-accent">Dual Reference Engine</span><span>Upload local images for separate Look and Outfit analysis.</span></div>
+        </div>
+
+        <div class="studio-reference-grid">
+          <article class="card studio-reference-card">
+            <div class="studio-reference-head">
+              <span class="mono-label">Look Reference</span>
+              <button type="button" class="btn btn-xs btn-outline" onclick="clearImage(event, 'look')">Clear</button>
+            </div>
+            <div class="studio-reference-subtitle">Subject Identity / Lighting</div>
+            <div class="viewport-box" id="dropLook" role="button" tabindex="0" aria-label="Choose Look reference image" onclick="$('fileLook').click()">
+              <input type="file" id="fileLook" accept="image/jpeg,image/png,image/webp" style="display:none" onchange="handleFile('look', this.files[0])">
+              <img id="prevLook" class="preview-img" alt="Look reference preview">
+              <div id="placeholderLook" class="placeholder-box">No Look image attached.<br>Upload a reference to begin.</div>
+              <div class="box-action-overlay">
+                <button type="button" class="action-circle-btn" id="zoomLook" onclick="openLightbox(event, 'look')" title="Inspect asset" aria-label="Inspect Look reference">Inspect</button>
+                <button type="button" class="action-circle-btn remove-btn" id="clearLook" onclick="clearImage(event, 'look')" title="Remove" aria-label="Remove Look reference">Remove</button>
+              </div>
+            </div>
+            <label class="btn btn-sm btn-outline studio-upload-btn" for="fileLook">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 15V3m0 0L7 8m5-5 5 5M4 15v5h16v-5"/></svg> Upload Look
+            </label>
+          </article>
+
+          <article class="card studio-reference-card">
+            <div class="studio-reference-head">
+              <span class="mono-label">Outfit Reference</span>
+              <button type="button" class="btn btn-xs btn-outline" onclick="clearImage(event, 'outfit')">Clear</button>
+            </div>
+            <div class="studio-reference-subtitle">Garment Silhouette / Drape</div>
+            <div class="viewport-box" id="dropOutfit" role="button" tabindex="0" aria-label="Choose Outfit reference image" onclick="$('fileOutfit').click()">
+              <input type="file" id="fileOutfit" accept="image/jpeg,image/png,image/webp" style="display:none" onchange="handleFile('outfit', this.files[0])">
+              <img id="prevOutfit" class="preview-img" alt="Outfit reference preview">
+              <div id="placeholderOutfit" class="placeholder-box">No Outfit image attached.<br>Upload a reference to begin.</div>
+              <div class="box-action-overlay">
+                <button type="button" class="action-circle-btn" id="zoomOutfit" onclick="openLightbox(event, 'outfit')" title="Inspect asset" aria-label="Inspect Outfit reference">Inspect</button>
+                <button type="button" class="action-circle-btn remove-btn" id="clearOutfit" onclick="clearImage(event, 'outfit')" title="Remove" aria-label="Remove Outfit reference">Remove</button>
+              </div>
+            </div>
+            <label class="btn btn-sm btn-outline studio-upload-btn" for="fileOutfit">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 15V3m0 0L7 8m5-5 5 5M4 15v5h16v-5"/></svg> Upload Outfit
+            </label>
+          </article>
+        </div>
+        <div class="mode-caption" id="modeHint" hidden>Add a Look reference for scene, pose and framing. Add an Outfit reference for garment and fabric details.</div>
+      </section>
+
+      <!-- Tactical Detail Pills & Clear Button -->
+      <section class="action-bar">
+        <div class="pill-group">
+          <button class="detail-pill" id="det-fast" aria-pressed="false" onclick="setDetail('fast')">Fast</button>
+          <button class="detail-pill active" id="det-balanced" aria-pressed="true" onclick="setDetail('balanced')">Balanced</button>
+          <button class="detail-pill" id="det-detailed" aria-pressed="false" onclick="setDetail('detailed')">Detailed</button>
+        </div>
+        <button class="clear-link-btn" id="clearAllBtn" onclick="handleClearAllStudio()">Clear all</button>
+      </section>
+      <div class="detail-caption" id="detailHint">Balanced: look 1024px · outfit 768px · target ~2000 characters</div>
+
+      <!-- Advanced Configuration Accordion -->
+      <section class="card accordion-card vs-advanced-card" id="studioAdvancedControls">
+        <div class="accordion-header" id="advToggleBtn" role="button" tabindex="0" aria-expanded="false" aria-controls="advancedControlsWrapper" onclick="toggleAdvancedAccordion()">
+          <span class="accordion-title">Advanced directives and overrides</span>
+          <span class="accordion-arrow">▼</span>
+        </div>
+
+        <div class="accordion-body" id="advancedControlsWrapper" style="display: none;">
+          
+          <div class="control-unit">
+            <label class="unit-label" for="outfitOverride">Outfit Text Override (Optional)</label>
+            <input type="text" id="outfitOverride" class="custom-input" placeholder="e.g. Dark emerald green silk saree with matte gold zari border...">
+          </div>
+
+          <div class="control-unit">
+            <div class="unit-header-row">
+              <label class="unit-label" for="subjectSelect">Subject Physique</label>
+              <div class="unit-actions">
+                <button class="micro-btn" onclick="toggleSaveBox('subjectSaveBox')">Save</button>
+                <button class="micro-btn danger" onclick="deleteProfile('subject')">Delete</button>
+              </div>
+            </div>
+            <select id="subjectSelect" class="custom-select" onchange="loadProfile('subject')">
+              <option value="">-- Select saved physique profile --</option>
+            </select>
+            <div class="save-name-pop" id="subjectSaveBox" style="display:none;">
+              <input type="text" id="subjectProfileName" class="custom-input" aria-label="Subject physique profile name" placeholder="Profile name (e.g., Classical Royal)">
+              <button class="btn btn-primary btn-small" onclick="saveProfile('subject')">Save</button>
+            </div>
+            <textarea id="subjectText" class="custom-textarea" aria-label="Subject physique directives" rows="2" placeholder="e.g. Sculpted facial contours, defined collarbones, natural skin texture..." oninput="updateCount('subjectText', 'subjectCount')"></textarea>
+            <div class="unit-footer-row">
+              <span class="micro-note">Controls physique and body proportions. Facial identity stays tied to the reference.</span>
+              <span class="micro-count" id="subjectCount">0 chars</span>
+            </div>
+          </div>
+
+          <div class="control-unit">
+            <div class="unit-header-row">
+              <label class="unit-label" for="hairSelect">Hairstyle Directives</label>
+              <div class="unit-actions">
+                <button class="micro-btn" onclick="toggleSaveBox('hairSaveBox')">Save</button>
+                <button class="micro-btn danger" onclick="deleteProfile('hair')">Delete</button>
+              </div>
+            </div>
+            <select id="hairSelect" class="custom-select" onchange="loadProfile('hair')">
+              <option value="">-- Select saved hairstyle profile --</option>
+            </select>
+            <div class="save-name-pop" id="hairSaveBox" style="display:none;">
+              <input type="text" id="hairProfileName" class="custom-input" aria-label="Hairstyle profile name" placeholder="Profile name (e.g., Sleek Chignon)">
+              <button class="btn btn-primary btn-small" onclick="saveProfile('hair')">Save</button>
+            </div>
+            <textarea id="hairText" class="custom-textarea" aria-label="Hairstyle directives" rows="2" placeholder="e.g. Center-parted low chignon wrapped in fresh white jasmine flowers..." oninput="updateCount('hairText', 'hairCount')"></textarea>
+            <div class="unit-footer-row">
+              <span class="micro-note">Overrides hair styling & texture parameters</span>
+              <span class="micro-count" id="hairCount">0 chars</span>
+            </div>
+          </div>
+
+          <div class="control-unit">
+            <div class="unit-header-row">
+              <label class="unit-label" for="poseSelect">Pose & Action Directives</label>
+              <div class="unit-actions">
+                <button class="micro-btn" onclick="toggleSaveBox('poseSaveBox')">Save</button>
+                <button class="micro-btn danger" onclick="deleteProfile('pose')">Delete</button>
+              </div>
+            </div>
+            <select id="poseSelect" class="custom-select" onchange="loadProfile('pose')">
+              <option value="">-- Select saved pose profile --</option>
+            </select>
+            <div class="save-name-pop" id="poseSaveBox" style="display:none;">
+              <input type="text" id="poseProfileName" class="custom-input" aria-label="Pose profile name" placeholder="Profile name (e.g., 3/4 Regal Turn)">
+              <button class="btn btn-primary btn-small" onclick="saveProfile('pose')">Save</button>
+            </div>
+            <textarea id="poseText" class="custom-textarea" aria-label="Pose and action directives" rows="2" placeholder="e.g. Three-quarter profile turn, fingertips resting gently on collarbone..." oninput="updateCount('poseText', 'poseCount')"></textarea>
+            <div class="unit-footer-row">
+              <span class="micro-note">Overrides stance, posture & camera gaze</span>
+              <span class="micro-count" id="poseCount">0 chars</span>
+            </div>
+          </div>
+
+          <div class="control-unit"><label class="unit-label" for="studioAdditional">Additional creative instructions</label><textarea id="studioAdditional" class="custom-textarea" rows="3" maxlength="1500" placeholder="Any other detail that should guide the final prompt..."></textarea><div class="unit-footer-row"><span class="micro-note">Explicit instructions take priority over inferred reference details.</span><span class="micro-count" id="studioAdditionalCount">0 chars</span></div></div>
+        </div>
+      </section>
+
+      <!-- Primary Action CTA Row -->
+      <section class="cta-row">
+        <button class="btn btn-primary flex-2" id="genBtn" onclick="startGenerate()">Generate Master Prompt</button>
+        <button class="btn btn-secondary flex-1" id="rawBtn" onclick="startJob('raw')">RAW Prompt</button>
+      </section>
+      <div class="gen-hint" id="genHint" role="status" aria-live="polite"></div>
+
+      <!-- Synthesis Status / Progress Box -->
+      <div class="progress-box" id="progressBox" style="display: none;">
+        <div class="progress-spinner"></div>
+        <div class="progress-meta">
+          <div class="status-msg" id="statusText" role="status" aria-live="polite">Synthesizing prompt directives...</div>
+          <div class="status-timer" id="timerText">00:00</div>
+        </div>
+      </div>
+      <section class="vs-analysis-panel" id="studioAnalysisPanel" style="display:none" aria-live="polite" aria-atomic="false">
+        <div class="vs-analysis-heading"><div><span class="vs-eyebrow">REFERENCE INTELLIGENCE</span><h2>Analysis review</h2><p id="studioAnalysisStatus" role="status" aria-live="polite">Waiting for reference analysis…</p></div>
+          <div class="vs-score"><strong id="studioCoverageScore">Not available</strong><span>Coverage</span></div></div>
+        <p class="vs-score-note" id="studioScoreNote">Coverage measures returned analysis for selected references, not visual accuracy.</p>
+        <div class="vs-analysis-grid">
+          <article class="vs-analysis-card"><div class="vs-analysis-card-head"><h3>Look reference</h3><span id="lookAnalysisState">Pending</span></div><p id="lookAnalysisSummary">Analysis will appear here after generation starts.</p></article>
+          <article class="vs-analysis-card"><div class="vs-analysis-card-head"><h3>Outfit reference</h3><span id="outfitAnalysisState">Pending</span></div><p id="outfitAnalysisSummary">Analysis will appear here after generation starts.</p></article>
+        </div>
+        <div class="vs-review-list" id="studioConflictList" hidden><h3>Conflicts & review notes</h3><ul id="studioConflictItems"></ul></div>
+        <div class="vs-review-list" id="studioAnalysisNotes" hidden><h3>Analysis notes</h3><ul id="studioAnalysisNoteItems"></ul></div>
+        <div class="vs-analysis-actions"><p>Retry re-runs analysis for the currently selected references and creates a fresh prompt result.</p><button type="button" class="vs-retry-btn" id="studioRetryAnalysis" onclick="retryStudioAnalysis()" hidden>Retry selected references</button></div>
+      </section>
+    </main>

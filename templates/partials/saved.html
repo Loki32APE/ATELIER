@@ -1,0 +1,14 @@
+    <!-- ==================== TAB 3: SAVED LOOKS ==================== -->
+    <section id="tab-saved" class="tab-content" style="display: none;">
+      <div class="card">
+        <div class="section-title">Saved Atelier Archive</div>
+        <input type="text" id="savedSearch" class="custom-input" aria-label="Search saved looks" placeholder="Search saved looks..." oninput="renderSavedLooks()" style="margin-bottom:12px;">
+        <div id="savedList" class="list-container"></div>
+        <div class="archive-actions-row">
+          <button class="btn btn-secondary btn-small" onclick="exportBackup()">Export Backup</button>
+          <button class="btn btn-secondary btn-small" onclick="$('importInput').click()">Import Backup</button>
+          <input type="file" id="importInput" accept=".json" style="display:none;" onchange="importBackup(this.files[0])">
+          <button class="btn btn-danger btn-small" onclick="clearSavedLooks()">Clear All</button>
+        </div>
+      </div>
+    </section>

@@ -1,0 +1,21 @@
+    <!-- Top Frosted Header -->
+    <header class="app-header" id="appHeader">
+      <div class="section-heading">
+        <span class="section-kicker">ATELIER WORKSPACE</span>
+        <div class="section-label" id="sectionLabel">STUDIO</div>
+      </div>
+      <button class="theme-toggle" id="themeToggleButton" type="button" onclick="toggleAtelierTheme()" aria-label="Switch to light theme" title="Switch theme">
+        <svg class="theme-icon-sun" viewBox="0 0 24 24" aria-hidden="true"><use href="{{ url_for('static', filename='brand/icons.svg') }}#util-sun"/></svg>
+        <svg class="theme-icon-moon" viewBox="0 0 24 24" aria-hidden="true"><use href="{{ url_for('static', filename='brand/icons.svg') }}#util-moon"/></svg>
+      </button>
+      <div class="hdr-pill">
+        <button class="hdr-btn model-settings-btn" onclick="openModelSettings()" aria-label="Open model settings" title="Model settings"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v2m0 14v2M3 12h2m14 0h2M5.6 5.6 7 7m10 10 1.4 1.4m0-12.8L17 7M7 17l-1.4 1.4"/><circle cx="12" cy="12" r="4"/></svg></button>
+        <span class="hdr-div"></span>
+        <button class="hdr-btn" id="infoBtn" onclick="toggleInfoPanel()" aria-label="Help">Help</button>
+      </div>
+    </header>
+    <div class="info-panel" id="infoPanel" role="region" aria-labelledby="infoPanelTitle" style="display:none;">
+      <div class="info-panel-heading"><div><span class="section-kicker">QUICK GUIDE</span><h2 id="infoPanelTitle">Vision Studio</h2></div><button type="button" class="info-panel-close" onclick="closeInfoPanel()" aria-label="Close quick guide">×</button></div>
+      <ol class="steps" id="infoSteps"></ol>
+    </div>
+
