@@ -1,0 +1,42 @@
+{
+  "items": [
+    {
+      "id": "glove_lace",
+      "name": "Lace gloves",
+      "shots": [
+        "close_up",
+        "half_body",
+        "three_quarter",
+        "full_body"
+      ],
+      "themes": [
+        "bollywood_retro",
+        "mughal"
+      ]
+    },
+    {
+      "id": "glove_mesh",
+      "name": "Mesh gloves",
+      "shots": [
+        "close_up",
+        "half_body",
+        "three_quarter",
+        "full_body"
+      ],
+      "themes": [
+        "wedding_mehendi"
+      ]
+    },
+    {
+      "id": "glove_none_hands",
+      "name": "Bare hands",
+      "shots": [
+        "close_up",
+        "half_body",
+        "three_quarter",
+        "full_body"
+      ],
+      "themes": []
+    }
+  ]
+}

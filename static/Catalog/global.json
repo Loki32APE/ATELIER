@@ -1,0 +1,73 @@
+{
+  "version": "catalog-v2",
+  "max_prompt_chars": 1000,
+  "prompt_order": [
+    "physique",
+    "hairstyle",
+    "makeup",
+    "outfit",
+    "jewellery",
+    "accessories",
+    "pose",
+    "expression",
+    "gaze",
+    "background",
+    "lighting",
+    "camera",
+    "art_style"
+  ],
+  "shot_types": [
+    {
+      "id": "close_up",
+      "label": "Close-Up (Face to Collarbone)",
+      "shows": "face, neck, shoulders",
+      "visible_zones": ["head", "face", "neck", "shoulders", "upper_chest"],
+      "disabled_categories": ["footwear", "outfit_bottom"],
+      "full_dress_rule": "extract_neckline_and_bodice_only",
+      "bg_modifier": "creamy out-of-focus bokeh background of",
+      "allowed_jewellery_zones": ["forehead", "ears", "nose", "neck_choker", "neck_long"]
+    },
+    {
+      "id": "half_body",
+      "label": "Half Body (Waist Up)",
+      "shows": "head to waist",
+      "visible_zones": ["head", "face", "neck", "shoulders", "chest", "waist", "arms", "hands"],
+      "disabled_categories": ["footwear", "outfit_bottom"],
+      "full_dress_rule": "extract_torso_bodice_and_sleeves",
+      "bg_modifier": "medium-depth shallow focus background featuring",
+      "allowed_jewellery_zones": ["forehead", "ears", "nose", "neck_choker", "neck_long", "wrists", "fingers", "waist"]
+    },
+    {
+      "id": "three_quarter",
+      "label": "3/4 Shot (Knees Up)",
+      "shows": "head to mid-thigh",
+      "visible_zones": ["head", "face", "neck", "torso", "waist", "hips", "arms", "hands", "thighs", "knees"],
+      "disabled_categories": ["footwear"],
+      "full_dress_rule": "extract_bodice_waist_and_skirt_drape",
+      "bg_modifier": "environmental framing of",
+      "allowed_jewellery_zones": ["forehead", "ears", "nose", "neck_choker", "neck_long", "wrists", "fingers", "waist"]
+    },
+    {
+      "id": "full_body",
+      "label": "Full Body (Head to Toe)",
+      "shows": "head to feet",
+      "visible_zones": ["all"],
+      "disabled_categories": [],
+      "full_dress_rule": "full_garment_head_to_hem",
+      "bg_modifier": "full wide architectural setting of",
+      "allowed_jewellery_zones": ["forehead", "ears", "nose", "neck_choker", "neck_long", "wrists", "fingers", "waist", "ankles"]
+    }
+  ],
+  "art_styles": [
+    "Photorealistic high-end editorial",
+    "Classic 35mm analog film grain",
+    "Kodak Portra 400 warm cinematic tone",
+    "Polaroid instant snapshot flash",
+    "Vintage 1970s Bollywood cinema print",
+    "Black & white fine art silver gelatin",
+    "Textured oil painting on canvas",
+    "Editorial watercolour wash",
+    "Teal and orange Hollywood grade",
+    "High-key pastel fashion look"
+  ]
+}

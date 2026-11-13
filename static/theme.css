@@ -1,0 +1,164 @@
+/* =====================================================================
+   Atelier Prompt Engine - theme.css
+   Sab custom styles yahan. Original style.css ke baad load hoti hai.
+   Background image: static/background.jpg (same folder)
+   ===================================================================== */
+
+/* ---- Mobile drawer + home ---- */
+    .menu-btn { position: fixed; top: 16px; left: 14px; z-index: 60; width: 42px; height: 42px;
+      background: rgba(18,17,15,0.9); border: 1px solid rgba(201,169,97,0.35); border-radius: 10px;
+      display: flex; flex-direction: column; justify-content: center; align-items: center; gap: 5px; cursor: pointer; padding: 0; }
+    .menu-btn span { display: block; width: 18px; height: 1.5px; background: #c9a961; border-radius: 2px; }
+    .drawer-backdrop { position: fixed; inset: 0; background: rgba(0,0,0,0.6); display: none; z-index: 70; }
+    .drawer { position: fixed; top: 0; left: 0; bottom: 0; width: 72%; max-width: 300px; background: #0b0a08;
+      border-right: 1px solid rgba(201,169,97,0.25); transform: translateX(-105%); transition: transform 0.3s ease;
+      z-index: 80; padding: 72px 18px 24px; display: flex; flex-direction: column; gap: 6px; }
+    .drawer.open { transform: translateX(0); }
+    .drawer-head { font-size: 0.7rem; letter-spacing: 0.2em; text-transform: uppercase; color: #8c857a; margin-bottom: 10px; }
+    .drawer-item { background: transparent; border: 1px solid transparent; color: #f1e6cc; text-align: left;
+      font-family: var(--ape-font-display), serif; font-size: 1.4rem; padding: 10px 12px; border-radius: 10px; cursor: pointer; }
+    .drawer-item.active { border-color: rgba(201,169,97,0.5); background: rgba(201,169,97,0.1); color: #c9a961; }
+    .home-view { text-align: center; padding: 64px 22px 90px; min-height: 80vh; display: flex; align-items: center; justify-content: center; }
+    .home-inner { max-width: 520px; margin: 0 auto; }
+    .home-logo { width: min(78vw, 340px); height: auto; display: block; margin: 0 auto 22px; border-radius: 14px;
+      box-shadow: 0 20px 60px rgba(201,169,97,0.12); }
+    .home-headline { font-family: var(--ape-font-display), serif; font-weight: 600; font-size: 2rem; line-height: 1.2; color: #f1e6cc; margin-bottom: 10px; }
+    .home-tagline { font-size: 0.78rem; letter-spacing: 0.22em; text-transform: uppercase; color: #c9a961; margin-bottom: 18px; }
+    .home-desc { font-size: 0.95rem; line-height: 1.7; color: #b9b2a6; }
+    /* Menu button header text ke upar na aaye */
+    .app-header { position: relative; padding: 14px 64px 14px 64px; min-height: 58px; display: flex; align-items: center; justify-content: flex-start; border-bottom: 1px solid rgba(201,169,97,0.2); }
+    .section-label { font-family: var(--ape-font-display), serif; font-weight: 600; font-size: 1.9rem; letter-spacing: 0.22em;
+      text-transform: uppercase; color: #c9a961; text-align: left; line-height: 1; }
+    .drawer-group { font-size: 0.66rem; letter-spacing: 0.22em; text-transform: uppercase; color: #6f685e; margin: 16px 0 6px 12px; }
+    .drawer-item { display: flex; align-items: center; gap: 12px; }
+    .drawer-icon { width: 22px; text-align: center; font-size: 1rem; color: #8c857a; }
+    .drawer-count { margin-left: auto; font-family: var(--ape-font-ui), sans-serif; font-size: 0.72rem; color: #8c857a; }
+    .drawer-item.active .drawer-icon { color: #c9a961; }
+    .info-page { padding: 56px 22px 90px; text-align: center; }
+    .info-page p { color: #b9b2a6; font-size: 0.95rem; line-height: 1.7; }
+    .info-btn { position: absolute; right: 14px; top: 50%; transform: translateY(-50%); width: 38px; height: 38px;
+      border-radius: 10px; border: 1px solid rgba(201,169,97,0.35); background: rgba(18,17,15,0.9); color: #c9a961;
+      font-family: var(--ape-font-display), serif; font-style: italic; font-size: 1.25rem; cursor: pointer; padding: 0; }
+    .info-panel { margin: 12px 14px 0; padding: 14px 16px; border: 1px solid rgba(201,169,97,0.25); border-radius: 12px; background: rgba(18,17,15,0.85); }
+    .steps { display: flex; align-items: center; justify-content: space-between; gap: 6px; font-size: 0.8rem; color: #f1e6cc; }
+    .steps .step span { color: #c9a961; font-family: var(--ape-font-mono), monospace; margin-right: 6px; }
+    .steps .arrow { color: #8c857a; }
+    .top-progress { position: fixed; top: 0; left: 0; right: 0; height: 2px; z-index: 90; opacity: 0; transition: opacity 0.3s;
+      background: linear-gradient(90deg, transparent, #c9a961, transparent); background-size: 200% 100%; animation: sweep 1.4s linear infinite; }
+    .top-progress.on { opacity: 1; }
+    @keyframes sweep { 0% { background-position: 200% 0; } 100% { background-position: -200% 0; } }
+    .status-msg.shimmer { background: linear-gradient(90deg, #8c857a 0%, #f1e6cc 50%, #8c857a 100%); background-size: 200% auto;
+      -webkit-background-clip: text; background-clip: text; color: transparent; animation: sweep 1.6s linear infinite; }
+    .is-copied { color: #c9a961 !important; border-color: #c9a961 !important; }
+    .gen-hint { font-size: 0.76rem; color: #8c857a; text-align: center; margin-top: 8px; min-height: 1em; }
+    .btn:disabled { opacity: 0.45; cursor: not-allowed; }
+    .empty-state { display: flex; flex-direction: column; align-items: center; gap: 8px; padding: 28px 12px; color: #8c857a; font-size: 0.88rem; text-align: center; }
+    .empty-icon { font-size: 1.6rem; color: #c9a961; opacity: 0.6; }
+    .drawer-item { position: relative; }
+    .drawer-item.active::before { content: ""; position: absolute; left: 0; top: 10px; bottom: 10px; width: 2px; background: #c9a961; border-radius: 2px; }
+    .drawer-version { margin-top: auto; text-align: center; font-size: 0.68rem; letter-spacing: 0.14em; color: #6f685e; opacity: 0.6; padding-top: 16px; }
+    .home-version { margin-top: 26px; font-size: 0.68rem; letter-spacing: 0.18em; text-transform: uppercase; color: #8c857a; opacity: 0.35; }
+
+    /* ---------- Theme v2.5: black marble + gold light, fonts ---------- */
+    html, body { background: #050506 !important; }
+    body { min-height: 100vh; background:
+      radial-gradient(1100px 650px at 50% -18%, rgba(201,169,97,0.17), transparent 60%),
+      linear-gradient(rgba(5,5,6,0.78), rgba(5,5,6,0.92)),
+      url("background.jpg") center / cover no-repeat,
+      radial-gradient(800px 600px at 100% 110%, rgba(201,169,97,0.08), transparent 60%),
+      linear-gradient(180deg, #0b0b0d 0%, #040405 100%) !important; }
+    .wrap { background: transparent !important; }
+    .card { background: linear-gradient(180deg, rgba(24,23,20,0.72), rgba(12,11,10,0.9)) !important;
+      border: 1px solid rgba(201,169,97,0.22) !important; backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px); }
+    .app-header { position: relative; padding: 14px 110px 14px 64px; min-height: 58px; display: flex; align-items: center; justify-content: flex-start; border-bottom: 1px solid rgba(201,169,97,0.2); }
+    .section-label { font-family: var(--ape-font-display), serif; font-weight: 600; font-size: 1.9rem; letter-spacing: 0.2em; color: #e6c97f; text-align: left; line-height: 1; }
+    .hdr-pill { position: absolute; right: 14px; top: 50%; transform: translateY(-50%); display: flex; align-items: center;
+      border: 1px solid rgba(201,169,97,0.35); border-radius: 12px; background: rgba(18,17,15,0.9); }
+    .hdr-btn { width: 40px; height: 38px; background: none; border: none; color: #c9a961; font-size: 1.05rem; cursor: pointer; }
+    .hdr-div { width: 1px; height: 20px; background: rgba(201,169,97,0.3); }
+    /* Gear aur ? sirf Studio par dikhenge, baki pages par nahi */
+    .hdr-pill { display: none; }
+    body:has(#tab-studio[style*="display: block"]) .hdr-pill { display: flex; }
+    .home-view { position: relative; min-height: 100vh; padding: 76px 22px 28px; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; }
+    .ver-pill { position: fixed; top: 16px; right: 14px; z-index: 60; font-family: var(--ape-font-ui), sans-serif; font-size: 0.8rem; letter-spacing: 0.06em; color: #c9a961;
+      border: 1px solid rgba(201,169,97,0.35); border-radius: 12px; padding: 10px 14px; background: rgba(18,17,15,0.9); }
+    .home-inner { max-width: 420px; margin: 0 auto; }
+    .home-logo { width: min(74vw, 320px); height: auto; display: block; margin: 0 auto 22px; border-radius: 0; box-shadow: none; }
+    .home-headline { font-family: var(--ape-font-display), serif; font-weight: 600; font-size: clamp(2rem, 8vw, 2.5rem); line-height: 1.12; color: #f5ecd6; margin-bottom: 14px; }
+    .hl-gold { background: linear-gradient(180deg, #f4e3b0, #c9a961); -webkit-background-clip: text; background-clip: text; color: transparent; }
+    .home-tagline { font-family: var(--ape-font-ui), sans-serif; font-size: 0.72rem; letter-spacing: 0.3em; text-transform: uppercase; color: #c9a961; margin-bottom: 18px; }
+    .home-desc { font-size: 0.92rem; line-height: 1.75; color: #b9b2a6; margin: 0 auto 28px; }
+    .home-ctas { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; width: 100%; }
+    .cta-primary, .cta-ghost { display: flex; align-items: center; justify-content: center; gap: 6px; padding: 16px 8px; border-radius: 14px; white-space: nowrap;
+      font-family: var(--ape-font-ui), sans-serif; font-size: 0.7rem; letter-spacing: 0.06em; text-transform: uppercase; cursor: pointer; }
+    .cta-primary { background: linear-gradient(135deg, #f1dc9a, #c9a961 60%, #a8873f); color: #140f06; border: none; font-weight: 600; box-shadow: 0 10px 30px rgba(201,169,97,0.25); }
+    .cta-ghost { background: transparent; color: #c9a961; border: 1px solid rgba(201,169,97,0.55); }
+    .home-footer { margin-top: 36px; font-family: var(--ape-font-ui), sans-serif; font-size: 0.62rem; letter-spacing: 0.2em; text-transform: uppercase; color: #8c857a; opacity: 0.5; text-align: center; }
+
+    /* ---------- Home wordmark + one-line headline (per mockup) ---------- */
+    .home-logo { width: min(62vw, 250px); margin: 0 auto 6px; }
+    .wordmark { text-align: center; }
+    .wm-top { font-family: var(--ape-font-display), serif; font-weight: 500; font-size: 2.6rem; letter-spacing: 0.08em; line-height: 1;
+      background: linear-gradient(180deg, #f4e3b0, #c9a961 70%, #8f7340); -webkit-background-clip: text; background-clip: text; color: transparent; }
+    .wm-sub { font-family: var(--ape-font-ui), sans-serif; font-weight: 600; font-size: 0.78rem; letter-spacing: 0.42em; margin-top: 8px; color: #d9b96e; padding-left: 0.42em; }
+    .wm-rule { width: 150px; height: 1px; margin: 16px auto 10px; background: linear-gradient(90deg, transparent, #c9a961, transparent); }
+    .wm-by { font-family: var(--ape-font-ui), sans-serif; font-size: 0.6rem; letter-spacing: 0.32em; color: #a8956b; margin-bottom: 26px; padding-left: 0.32em; }
+    .home-headline { font-size: 1.85rem; line-height: 1.2; margin-bottom: 12px; }
+    .hl-line { display: block; white-space: nowrap; }
+    .home-tagline { white-space: nowrap; font-size: 0.66rem; letter-spacing: 0.26em; margin-bottom: 20px; }
+
+    /* ---------- Home: ek hi screen mein fit, scroll nahi ---------- */
+    body:has(#tab-home[style*="display: block"]) { padding: 0 !important; }
+    .home-view { min-height: 0 !important; height: 100vh; height: 100dvh; overflow: hidden;
+      padding: 64px 20px 16px !important; justify-content: space-between !important; }
+    .home-inner { max-width: 380px; flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: center; }
+    .home-logo { width: min(36vh, 200px) !important; margin: 0 auto 2px !important; }
+    .wm-top { font-size: clamp(1.9rem, 5.2vh, 2.4rem) !important; }
+    .wm-rule { margin: 10px auto 6px !important; }
+    .wm-by { margin-bottom: 12px !important; }
+    .home-headline { font-size: clamp(1.45rem, 3.4vh, 1.75rem) !important; margin-bottom: 6px !important; }
+    .home-tagline { margin-bottom: 10px !important; }
+    .home-desc { font-size: 0.8rem !important; line-height: 1.6 !important; margin-bottom: 16px !important; }
+    .cta-primary, .cta-ghost { padding: 14px 8px !important; }
+    .home-footer { margin-top: 10px !important; }
+    /* Home par style.css ka .wrap (540px, 16px/14px padding) hatao: alignment aur scroll fix */
+    body:has(#tab-home[style*="display: block"]) .wrap { max-width: 100% !important; padding: 0 !important; }
+
+    /* ---------- Golden light flares (CSS only, background image ke upar) ---------- */
+    body::before, body::after { content: ""; position: fixed; inset: 0; pointer-events: none; z-index: -1; mix-blend-mode: screen; }
+    body::before {
+      background:
+        radial-gradient(420px 260px at 18% 22%, rgba(241,220,154,0.22), transparent 70%),
+        radial-gradient(240px 160px at 62% 46%, rgba(255,236,190,0.10), transparent 70%);
+      animation: flareDriftA 16s ease-in-out infinite alternate;
+    }
+    body::after {
+      background:
+        radial-gradient(380px 240px at 88% 80%, rgba(201,169,97,0.18), transparent 70%),
+        radial-gradient(200px 140px at 12% 84%, rgba(241,220,154,0.10), transparent 70%);
+      animation: flareDriftB 22s ease-in-out infinite alternate;
+    }
+    @keyframes flareDriftA {
+      0%   { transform: translate3d(0, 0, 0) scale(1);    opacity: 0.7; }
+      100% { transform: translate3d(-4%, 3%, 0) scale(1.08); opacity: 1; }
+    }
+    @keyframes flareDriftB {
+      0%   { transform: translate3d(0, 0, 0) scale(1.05); opacity: 0.8; }
+      100% { transform: translate3d(3%, -4%, 0) scale(1); opacity: 0.55; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      body::before, body::after { animation: none; }
+    }
+
+/* ---------- Home: top-right group + footer pinned to bottom ---------- */
+.top-right { position: fixed; top: 16px; right: 14px; z-index: 60; display: flex; align-items: center; gap: 8px; }
+.top-right .ver-pill { position: static !important; }
+.profile-btn { width: 42px; height: 42px; border-radius: 12px; border: 1px solid rgba(201,169,97,0.35);
+  background: rgba(18,17,15,0.9); color: #c9a961; display: flex; align-items: center; justify-content: center; cursor: pointer; padding: 0; }
+.home-view { padding-bottom: 72px !important; }
+.home-view .home-footer { position: absolute !important; left: 0; right: 0; bottom: 22px; margin: 0 !important; }
+
+/* ---------- Studio: reference placeholder images ---------- */
+.placeholder-box .ref-art { display: block; width: 100%; height: 100%; object-fit: contain;
+  background: transparent; mix-blend-mode: screen; border-radius: 0; }
+

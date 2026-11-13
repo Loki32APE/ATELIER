@@ -1,0 +1,16 @@
+{
+  "name": "Atelier Prompt Engine",
+  "short_name": "Atelier",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#111215",
+  "theme_color": "#111215",
+  "icons": [
+    {
+      "src": "/static/brand/atelier-app-icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1500 940" role="img" aria-labelledby="title desc">
+  <title id="title">Atelier standalone symbol study</title>
+  <desc id="desc">Three standalone non-letter symbols paired with the Atelier wordmark. Exploratory only, not approved assets.</desc>
+  <rect width="1500" height="940" fill="#242521"/>
+  <path d="M70 64h48" stroke="#AE8B5C" stroke-width="2"/>
+  <text x="70" y="112" fill="#EEE8DC" font-family="Georgia,serif" font-size="42">Standalone symbol study</text>
+  <text x="70" y="150" fill="#BDB6A8" font-family="Arial,sans-serif" font-size="16" letter-spacing="2">NO INITIAL LETTER · BRONZE ATELIER · EXPLORATION ONLY</text>
+
+  <g transform="translate(70 205)">
+    <rect width="430" height="600" rx="8" fill="#30312D" stroke="#57564D"/>
+    <text x="30" y="48" fill="#AE8B5C" font-family="Arial,sans-serif" font-size="13" letter-spacing="2">S1 · THREAD IN FRAME</text>
+    <text x="30" y="82" fill="#EEE8DC" font-family="Georgia,serif" font-size="23">A scene being composed</text>
+    <path d="M174 177h25M174 177v25M256 177h-25M256 177v25M174 259h25M174 259v-25M256 259h-25M256 259v-25" fill="none" stroke="#AE8B5C" stroke-width="2.3"/>
+    <path d="M188 242 C201 229 193 210 209 204 C224 198 240 216 226 228 C218 235 206 231 207 221 C208 214 217 212 221 218" fill="none" stroke="#EEE8DC" stroke-width="3.8" stroke-linecap="round"/>
+    <circle cx="221" cy="218" r="3.2" fill="#AE8B5C"/>
+    <text x="215" y="318" text-anchor="middle" fill="#EEE8DC" font-family="Georgia,serif" font-size="31" letter-spacing="5">ATELIER</text>
+    <text x="215" y="345" text-anchor="middle" fill="#BDB6A8" font-family="Arial,sans-serif" font-size="11" letter-spacing="4">PROMPT ENGINE</text>
+    <line x1="30" y1="380" x2="400" y2="380" stroke="#57564D"/>
+    <text x="30" y="420" fill="#BDB6A8" font-family="Arial,sans-serif" font-size="14">Focus corners hold a hand-drawn thread.</text>
+    <text x="30" y="456" fill="#788071" font-family="Arial,sans-serif" font-size="12" letter-spacing="1">COMPOSITION / CREATIVE PROCESS</text>
+    <rect x="170" y="492" width="90" height="90" rx="8" fill="#242521" stroke="#57564D"/>
+    <path d="M185 514h13M185 514v13M245 514h-13M245 514v13M185 560h13M185 560v-13M245 560h-13M245 560v-13" fill="none" stroke="#AE8B5C" stroke-width="1.8"/>
+    <path d="M195 550 C205 541 199 528 211 524 C223 519 235 531 224 540 C218 545 210 542 211 536 C212 531 218 531 221 535" fill="none" stroke="#EEE8DC" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="221" cy="535" r="2.5" fill="#AE8B5C"/>
+  </g>
+
+  <g transform="translate(535 205)">
+    <rect width="430" height="600" rx="8" fill="#30312D" stroke="#57564D"/>
+    <text x="30" y="48" fill="#AE8B5C" font-family="Arial,sans-serif" font-size="13" letter-spacing="2">S2 · FOLDED MATERIAL</text>
+    <text x="30" y="82" fill="#EEE8DC" font-family="Georgia,serif" font-size="23">A tailored fabric fold</text>
+    <path d="M174 250 201 184 256 231 236 258 197 229Z" fill="none" stroke="#EEE8DC" stroke-width="3.5" stroke-linejoin="round"/>
+    <path d="m201 184 35 74m-39-29 59 2m-43-13 31-15" fill="none" stroke="#AE8B5C" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="215" y="318" text-anchor="middle" fill="#EEE8DC" font-family="Georgia,serif" font-size="31" letter-spacing="5">ATELIER</text>
+    <text x="215" y="345" text-anchor="middle" fill="#BDB6A8" font-family="Arial,sans-serif" font-size="11" letter-spacing="4">PROMPT ENGINE</text>
+    <line x1="30" y1="380" x2="400" y2="380" stroke="#57564D"/>
+    <text x="30" y="420" fill="#BDB6A8" font-family="Arial,sans-serif" font-size="14">Layered planes suggest material and craft.</text>
+    <text x="30" y="456" fill="#788071" font-family="Arial,sans-serif" font-size="12" letter-spacing="1">FASHION / MATERIAL INTELLIGENCE</text>
+    <rect x="170" y="492" width="90" height="90" rx="8" fill="#242521" stroke="#57564D"/>
+    <path d="M190 555 205 516 244 540 230 559 202 539Z" fill="none" stroke="#EEE8DC" stroke-width="2.8" stroke-linejoin="round"/>
+    <path d="m205 516 25 43m-28-20 42 1m-30-9 22-11" fill="none" stroke="#AE8B5C" stroke-width="2" stroke-linecap="round"/>
+  </g>
+
+  <g transform="translate(1000 205)">
+    <rect width="430" height="600" rx="8" fill="#30312D" stroke="#57564D"/>
+    <text x="30" y="48" fill="#AE8B5C" font-family="Arial,sans-serif" font-size="13" letter-spacing="2">S3 · PROMPT FOLIO</text>
+    <text x="30" y="82" fill="#EEE8DC" font-family="Georgia,serif" font-size="23">An idea shaped into a brief</text>
+    <path d="M182 182h57l16 16v66h-73z" fill="none" stroke="#EEE8DC" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M239 182v18h17m-59 12h38m-38 13h30m-30 13h36" fill="none" stroke="#AE8B5C" stroke-width="2.4" stroke-linecap="square"/>
+    <path d="M195 257c10-10 18-2 27-9 8-7 15-4 22-9" fill="none" stroke="#EEE8DC" stroke-width="2.5" stroke-linecap="round"/>
+    <text x="215" y="318" text-anchor="middle" fill="#EEE8DC" font-family="Georgia,serif" font-size="31" letter-spacing="5">ATELIER</text>
+    <text x="215" y="345" text-anchor="middle" fill="#BDB6A8" font-family="Arial,sans-serif" font-size="11" letter-spacing="4">PROMPT ENGINE</text>
+    <line x1="30" y1="380" x2="400" y2="380" stroke="#57564D"/>
+    <text x="30" y="420" fill="#BDB6A8" font-family="Arial,sans-serif" font-size="14">A brief sheet with an editorial line.</text>
+    <text x="30" y="456" fill="#788071" font-family="Arial,sans-serif" font-size="12" letter-spacing="1">PROMPT BUILDING / EDITORIAL TOOL</text>
+    <rect x="170" y="492" width="90" height="90" rx="8" fill="#242521" stroke="#57564D"/>
+    <path d="M188 511h36l11 11v45h-47z" fill="none" stroke="#EEE8DC" stroke-width="2.6" stroke-linejoin="round"/>
+    <path d="M224 511v13h11m-37 9h27m-27 10h22m-22 10h28" fill="none" stroke="#AE8B5C" stroke-width="2" stroke-linecap="square"/>
+  </g>
+  <text x="70" y="870" fill="#BDB6A8" font-family="Arial,sans-serif" font-size="13">All three are symbol-first concepts; each can pair with a horizontal or stacked Atelier wordmark.</text>
+  <text x="1430" y="870" text-anchor="end" fill="#788071" font-family="Arial,sans-serif" font-size="13">Exploration only · not yet approved</text>
+</svg>

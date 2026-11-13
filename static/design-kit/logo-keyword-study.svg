@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1500 940" role="img" aria-labelledby="title desc">
+  <title id="title">Atelier optical engine logo study</title>
+  <desc id="desc">Three refined logo symbols inspired by engine, camera, photo, prompt, AI, vision, luxury and premium.</desc>
+  <rect width="1500" height="940" fill="#242521"/>
+  <path d="M70 64h48" stroke="#AE8B5C" stroke-width="2"/>
+  <text x="70" y="112" fill="#EEE8DC" font-family="Georgia,serif" font-size="42">Optical intelligence · logo study</text>
+  <text x="70" y="150" fill="#BDB6A8" font-family="Arial,sans-serif" font-size="15" letter-spacing="1.8">ENGINE · CAMERA · PHOTO · PROMPT · AI · VISION · LUXURY · PREMIUM</text>
+
+  <g transform="translate(70 205)">
+    <rect width="430" height="600" rx="8" fill="#30312D" stroke="#57564D"/>
+    <text x="30" y="48" fill="#AE8B5C" font-family="Arial,sans-serif" font-size="13" letter-spacing="2">DIRECTION 01 · IRIS ENGINE</text>
+    <text x="30" y="82" fill="#EEE8DC" font-family="Georgia,serif" font-size="23">A precision optical instrument</text>
+    <circle cx="215" cy="218" r="50" fill="none" stroke="#AE8B5C" stroke-width="1.4"/>
+    <circle cx="215" cy="218" r="39" fill="none" stroke="#EEE8DC" stroke-width="1.4"/>
+    <path d="M215 181 233 194 231 215 215 226 198 215 197 195Z M248 204 245 226 226 237 211 231 210 212 227 199Z M238 247 218 255 199 245 194 228 210 216 228 224Z M183 244 175 225 186 207 204 203 215 218 208 237Z M180 194 199 181 217 188 221 207 205 218 188 211Z" fill="none" stroke="#AE8B5C" stroke-width="2" stroke-linejoin="round"/>
+    <rect x="209" y="212" width="12" height="12" fill="#EEE8DC"/>
+    <text x="215" y="318" text-anchor="middle" fill="#EEE8DC" font-family="Georgia,serif" font-size="31" letter-spacing="5">ATELIER</text>
+    <text x="215" y="345" text-anchor="middle" fill="#BDB6A8" font-family="Arial,sans-serif" font-size="11" letter-spacing="4">PROMPT ENGINE</text>
+    <line x1="30" y1="380" x2="400" y2="380" stroke="#57564D"/>
+    <text x="30" y="420" fill="#BDB6A8" font-family="Arial,sans-serif" font-size="14">Aperture blades built like a fine mechanism.</text>
+    <text x="30" y="456" fill="#788071" font-family="Arial,sans-serif" font-size="12" letter-spacing="1">MOST OPTICAL / MOST ENGINEERED</text>
+    <rect x="170" y="492" width="90" height="90" rx="8" fill="#242521" stroke="#57564D"/>
+    <circle cx="215" cy="537" r="29" fill="none" stroke="#AE8B5C" stroke-width="1.4"/>
+    <path d="M215 516 226 524 225 536 215 543 205 536 204 525Z M233 529 231 542 220 548 210 544 210 533 221 526Z M222 552 211 556 201 550 200 540 210 534 220 539Z M197 548 193 537 199 527 209 525 215 534 211 545Z M196 524 206 518 216 522 219 532 210 538 201 534Z" fill="none" stroke="#EEE8DC" stroke-width="1.7" stroke-linejoin="round"/>
+    <rect x="212" y="534" width="6" height="6" fill="#AE8B5C"/>
+  </g>
+
+  <g transform="translate(535 205)">
+    <rect width="430" height="600" rx="8" fill="#30312D" stroke="#57564D"/>
+    <text x="30" y="48" fill="#AE8B5C" font-family="Arial,sans-serif" font-size="13" letter-spacing="2">DIRECTION 02 · PROMPT LENS</text>
+    <text x="30" y="82" fill="#EEE8DC" font-family="Georgia,serif" font-size="23">Direction becomes a photograph</text>
+    <path d="M165 197h34m-34 13h42m-42 13h27" fill="none" stroke="#EEE8DC" stroke-width="2.6" stroke-linecap="round"/>
+    <path d="M190 223c15 0 16-24 30-24h14" fill="none" stroke="#AE8B5C" stroke-width="2.2" stroke-linecap="round"/>
+    <circle cx="239" cy="218" r="33" fill="none" stroke="#EEE8DC" stroke-width="2"/>
+    <path d="M239 191 251 201 250 216 239 223 227 216 227 201Z M263 210 261 224 249 231 238 226 238 214 250 206Z M251 239 238 244 226 237 224 225 236 218 248 225Z M216 235 212 222 219 210 231 208 239 219 234 232Z M216 200 228 192 240 197 243 209 232 217 221 212Z" fill="none" stroke="#AE8B5C" stroke-width="1.7" stroke-linejoin="round"/>
+    <circle cx="239" cy="218" r="4" fill="#EEE8DC"/>
+    <text x="215" y="318" text-anchor="middle" fill="#EEE8DC" font-family="Georgia,serif" font-size="31" letter-spacing="5">ATELIER</text>
+    <text x="215" y="345" text-anchor="middle" fill="#BDB6A8" font-family="Arial,sans-serif" font-size="11" letter-spacing="4">PROMPT ENGINE</text>
+    <line x1="30" y1="380" x2="400" y2="380" stroke="#57564D"/>
+    <text x="30" y="420" fill="#BDB6A8" font-family="Arial,sans-serif" font-size="14">Short prompt lines resolve into an iris.</text>
+    <text x="30" y="456" fill="#788071" font-family="Arial,sans-serif" font-size="12" letter-spacing="1">MOST PRODUCT-SPECIFIC</text>
+    <rect x="170" y="492" width="90" height="90" rx="8" fill="#242521" stroke="#57564D"/>
+    <path d="M183 520h19m-19 8h23m-23 8h15" fill="none" stroke="#EEE8DC" stroke-width="1.9" stroke-linecap="round"/>
+    <path d="M197 536c8 0 8-13 16-13h4" fill="none" stroke="#AE8B5C" stroke-width="1.7" stroke-linecap="round"/>
+    <circle cx="229" cy="533" r="19" fill="none" stroke="#EEE8DC" stroke-width="1.5"/>
+    <path d="M229 518 238 525 236 535 229 541 221 536 220 526Z M243 529 242 538 234 543 226 540 226 532 234 527Z M235 547 226 550 219 545 219 537 227 534 235 539Z M216 543 214 535 219 528 227 527 232 534 229 542Z" fill="none" stroke="#AE8B5C" stroke-width="1.2" stroke-linejoin="round"/>
+  </g>
+
+  <g transform="translate(1000 205)">
+    <rect width="430" height="600" rx="8" fill="#30312D" stroke="#57564D"/>
+    <text x="30" y="48" fill="#AE8B5C" font-family="Arial,sans-serif" font-size="13" letter-spacing="2">DIRECTION 03 · VISION INSTRUMENT</text>
+    <text x="30" y="82" fill="#EEE8DC" font-family="Georgia,serif" font-size="23">A premium viewfinder mark</text>
+    <path d="M172 187h26v8m60-8h-26v8m-60 62h26v-8m60 8h-26v-8" fill="none" stroke="#AE8B5C" stroke-width="2.4" stroke-linecap="square"/>
+    <path d="M202 193h37v50h-37z" fill="none" stroke="#EEE8DC" stroke-width="1.7"/>
+    <path d="M207 232c8-13 18-13 27 0m-27 0h27" fill="none" stroke="#AE8B5C" stroke-width="1.8" stroke-linecap="round"/>
+    <circle cx="220.5" cy="210" r="4" fill="#EEE8DC"/>
+    <text x="215" y="318" text-anchor="middle" fill="#EEE8DC" font-family="Georgia,serif" font-size="31" letter-spacing="5">ATELIER</text>
+    <text x="215" y="345" text-anchor="middle" fill="#BDB6A8" font-family="Arial,sans-serif" font-size="11" letter-spacing="4">PROMPT ENGINE</text>
+    <line x1="30" y1="380" x2="400" y2="380" stroke="#57564D"/>
+    <text x="30" y="420" fill="#BDB6A8" font-family="Arial,sans-serif" font-size="14">Crop marks hold a composed image plane.</text>
+    <text x="30" y="456" fill="#788071" font-family="Arial,sans-serif" font-size="12" letter-spacing="1">MOST LUXURY / MOST RESTRAINED</text>
+    <rect x="170" y="492" width="90" height="90" rx="8" fill="#242521" stroke="#57564D"/>
+    <path d="M186 518h14v5m30-5h-14v5m-30 29h14v-5m30 5h-14v-5" fill="none" stroke="#AE8B5C" stroke-width="1.8" stroke-linecap="square"/>
+    <path d="M202 523h26v24h-26z" fill="none" stroke="#EEE8DC" stroke-width="1.4"/>
+    <path d="M206 541c6-9 13-9 19 0m-19 0h19" fill="none" stroke="#AE8B5C" stroke-width="1.4" stroke-linecap="round"/>
+  </g>
+  <text x="70" y="870" fill="#BDB6A8" font-family="Arial,sans-serif" font-size="13">Bronze is used as a fine instrument detail; the symbol stays legible in one colour.</text>
+  <text x="1430" y="870" text-anchor="end" fill="#788071" font-family="Arial,sans-serif" font-size="13">Exploration only · not approved</text>
+</svg>

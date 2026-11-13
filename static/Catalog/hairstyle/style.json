@@ -1,0 +1,89 @@
+{
+  "items": [
+    {
+      "id": "style_low_bun",
+      "name": "Low bun",
+      "shots": [
+        "close_up",
+        "half_body",
+        "three_quarter",
+        "full_body"
+      ],
+      "themes": [
+        "haveli",
+        "temple",
+        "kerala_onam"
+      ]
+    },
+    {
+      "id": "style_high_bun",
+      "name": "High bun",
+      "shots": [
+        "close_up",
+        "half_body",
+        "three_quarter",
+        "full_body"
+      ],
+      "themes": [
+        "wedding_mehendi",
+        "mughal"
+      ]
+    },
+    {
+      "id": "style_open_waves",
+      "name": "Open waves",
+      "shots": [
+        "close_up",
+        "half_body",
+        "three_quarter",
+        "full_body"
+      ],
+      "themes": [
+        "bollywood_retro",
+        "poolside_resort"
+      ]
+    },
+    {
+      "id": "style_plait",
+      "name": "Plait",
+      "shots": [
+        "close_up",
+        "half_body",
+        "three_quarter",
+        "full_body"
+      ],
+      "themes": [
+        "kerala_onam",
+        "holi"
+      ]
+    },
+    {
+      "id": "style_half_up",
+      "name": "Half-up",
+      "shots": [
+        "close_up",
+        "half_body",
+        "three_quarter",
+        "full_body"
+      ],
+      "themes": [
+        "diwali",
+        "kolkata_monsoon"
+      ]
+    },
+    {
+      "id": "style_messy_ponytail",
+      "name": "Messy ponytail",
+      "shots": [
+        "close_up",
+        "half_body",
+        "three_quarter",
+        "full_body"
+      ],
+      "themes": [
+        "holi",
+        "poolside_resort"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1500 940" role="img" aria-labelledby="title desc">
+  <title id="title">Atelier prompt intelligence symbol study</title>
+  <desc id="desc">Three original standalone symbol concepts for turning creative direction into intentional image composition.</desc>
+  <rect width="1500" height="940" fill="#242521"/>
+  <path d="M70 64h48" stroke="#AE8B5C" stroke-width="2"/>
+  <text x="70" y="112" fill="#EEE8DC" font-family="Georgia,serif" font-size="42">Creative intelligence · symbol study</text>
+  <text x="70" y="150" fill="#BDB6A8" font-family="Arial,sans-serif" font-size="16" letter-spacing="2">PROMPT → VISUAL COMPOSITION · NO INITIALS · NO GENERIC AI ICONS</text>
+
+  <g transform="translate(70 205)">
+    <rect width="430" height="600" rx="8" fill="#30312D" stroke="#57564D"/>
+    <text x="30" y="48" fill="#AE8B5C" font-family="Arial,sans-serif" font-size="13" letter-spacing="2">P1 · INTENT TO FRAME</text>
+    <text x="30" y="82" fill="#EEE8DC" font-family="Georgia,serif" font-size="23">Words resolve into a scene</text>
+    <path d="M168 190h32m-32 15h42m-42 15h25" fill="none" stroke="#EEE8DC" stroke-width="3" stroke-linecap="round"/>
+    <path d="M193 220c14 0 16-26 31-26h31m0 0v24m0-24h-24m24 24v20m0 0h-31m31 0h-24m-38 0c12 0 16-20 30-20" fill="none" stroke="#AE8B5C" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M220 236c7-9 13-9 20 0m-20 0h20" fill="none" stroke="#EEE8DC" stroke-width="2" stroke-linecap="round"/>
+    <text x="215" y="318" text-anchor="middle" fill="#EEE8DC" font-family="Georgia,serif" font-size="31" letter-spacing="5">ATELIER</text>
+    <text x="215" y="345" text-anchor="middle" fill="#BDB6A8" font-family="Arial,sans-serif" font-size="11" letter-spacing="4">PROMPT ENGINE</text>
+    <line x1="30" y1="380" x2="400" y2="380" stroke="#57564D"/>
+    <text x="30" y="420" fill="#BDB6A8" font-family="Arial,sans-serif" font-size="14">Prompt strokes become framing marks.</text>
+    <text x="30" y="456" fill="#788071" font-family="Arial,sans-serif" font-size="12" letter-spacing="1">MOST DIRECT PRODUCT STORY</text>
+    <rect x="170" y="492" width="90" height="90" rx="8" fill="#242521" stroke="#57564D"/>
+    <path d="M185 516h17m-17 9h22m-22 9h13" fill="none" stroke="#EEE8DC" stroke-width="2.3" stroke-linecap="round"/>
+    <path d="M199 534c7 0 8-14 17-14h16m0 0v13m0-13h-12m12 13v13m0 0h-17m17 0h-12m-22 0c6 0 8-13 16-13" fill="none" stroke="#AE8B5C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <g transform="translate(535 205)">
+    <rect width="430" height="600" rx="8" fill="#30312D" stroke="#57564D"/>
+    <text x="30" y="48" fill="#AE8B5C" font-family="Arial,sans-serif" font-size="13" letter-spacing="2">P2 · COMPOSED LAYERS</text>
+    <text x="30" y="82" fill="#EEE8DC" font-family="Georgia,serif" font-size="23">Detail, hierarchy, intention</text>
+    <path d="M182 190h66v48h-66z" fill="none" stroke="#AE8B5C" stroke-width="2.5"/>
+    <path d="M190 198h50v32h-50z" fill="none" stroke="#EEE8DC" stroke-width="2.5"/>
+    <path d="M190 221h50m-32-23v32m15-32v32" fill="none" stroke="#AE8B5C" stroke-width="1.7"/>
+    <path d="M206 218c5-6 10-6 15 0m-15 0h15" fill="none" stroke="#EEE8DC" stroke-width="1.8" stroke-linecap="round"/>
+    <text x="215" y="318" text-anchor="middle" fill="#EEE8DC" font-family="Georgia,serif" font-size="31" letter-spacing="5">ATELIER</text>
+    <text x="215" y="345" text-anchor="middle" fill="#BDB6A8" font-family="Arial,sans-serif" font-size="11" letter-spacing="4">PROMPT ENGINE</text>
+    <line x1="30" y1="380" x2="400" y2="380" stroke="#57564D"/>
+    <text x="30" y="420" fill="#BDB6A8" font-family="Arial,sans-serif" font-size="14">Nested planes make a composed window.</text>
+    <text x="30" y="456" fill="#788071" font-family="Arial,sans-serif" font-size="12" letter-spacing="1">MOST STRUCTURED / MOST PRECISE</text>
+    <rect x="170" y="492" width="90" height="90" rx="8" fill="#242521" stroke="#57564D"/>
+    <path d="M186 508h38v32h-38z" fill="none" stroke="#AE8B5C" stroke-width="2"/>
+    <path d="M192 514h26v20h-26z" fill="none" stroke="#EEE8DC" stroke-width="2"/>
+    <path d="M192 528h26m-17-14v20m9-20v20" fill="none" stroke="#AE8B5C" stroke-width="1.5"/>
+  </g>
+
+  <g transform="translate(1000 205)">
+    <rect width="430" height="600" rx="8" fill="#30312D" stroke="#57564D"/>
+    <text x="30" y="48" fill="#AE8B5C" font-family="Arial,sans-serif" font-size="13" letter-spacing="2">P3 · SYNTHESIS LINE</text>
+    <text x="30" y="82" fill="#EEE8DC" font-family="Georgia,serif" font-size="23">Two inputs, one direction</text>
+    <path d="M175 196h29c12 0 12 29 26 29h29m-84 0h29c12 0 12-29 26-29h29" fill="none" stroke="#EEE8DC" stroke-width="3" stroke-linecap="round"/>
+    <path d="M205 196c10 0 11 29 25 29s15-29 29-29m-54 29c10 0 11-29 25-29s15 29 29 29" fill="none" stroke="#AE8B5C" stroke-width="2.3" stroke-linecap="round"/>
+    <path d="M259 196v29m-8-15h16" stroke="#EEE8DC" stroke-width="1.8" stroke-linecap="round"/>
+    <text x="215" y="318" text-anchor="middle" fill="#EEE8DC" font-family="Georgia,serif" font-size="31" letter-spacing="5">ATELIER</text>
+    <text x="215" y="345" text-anchor="middle" fill="#BDB6A8" font-family="Arial,sans-serif" font-size="11" letter-spacing="4">PROMPT ENGINE</text>
+    <line x1="30" y1="380" x2="400" y2="380" stroke="#57564D"/>
+    <text x="30" y="420" fill="#BDB6A8" font-family="Arial,sans-serif" font-size="14">Two creative inputs meet and resolve.</text>
+    <text x="30" y="456" fill="#788071" font-family="Arial,sans-serif" font-size="12" letter-spacing="1">MOST ABSTRACT / MOST DISTINCTIVE</text>
+    <rect x="170" y="492" width="90" height="90" rx="8" fill="#242521" stroke="#57564D"/>
+    <path d="M184 521h14c7 0 7 17 15 17h22m-51 0h14c7 0 7-17 15-17h22" fill="none" stroke="#EEE8DC" stroke-width="2.4" stroke-linecap="round"/>
+    <path d="M200 521c6 0 6 17 13 17s8-17 15-17m-28 17c6 0 6-17 13-17s8 17 15 17" fill="none" stroke="#AE8B5C" stroke-width="1.8" stroke-linecap="round"/>
+  </g>
+  <text x="70" y="870" fill="#BDB6A8" font-family="Arial,sans-serif" font-size="13">No logo selected. These test different visual metaphors for creative intelligence and prompt-building.</text>
+  <text x="1430" y="870" text-anchor="end" fill="#788071" font-family="Arial,sans-serif" font-size="13">Exploration only</text>
+</svg>

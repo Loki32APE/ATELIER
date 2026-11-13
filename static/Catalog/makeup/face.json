@@ -1,0 +1,69 @@
+{
+  "items": [
+    {
+      "id": "face_natural_base",
+      "name": "Natural base",
+      "shots": [
+        "close_up",
+        "half_body",
+        "three_quarter",
+        "full_body"
+      ],
+      "themes": [
+        "kolkata_monsoon",
+        "kerala_onam"
+      ]
+    },
+    {
+      "id": "face_dewy_base",
+      "name": "Dewy base",
+      "shots": [
+        "close_up",
+        "half_body",
+        "three_quarter",
+        "full_body"
+      ],
+      "themes": [
+        "poolside_resort"
+      ]
+    },
+    {
+      "id": "face_matte_base",
+      "name": "Matte base",
+      "shots": [
+        "close_up",
+        "half_body",
+        "three_quarter",
+        "full_body"
+      ],
+      "themes": [
+        "bollywood_retro"
+      ]
+    },
+    {
+      "id": "face_bridal_base",
+      "name": "Bridal base",
+      "shots": [
+        "close_up",
+        "half_body",
+        "three_quarter",
+        "full_body"
+      ],
+      "themes": [
+        "wedding_mehendi",
+        "haveli"
+      ]
+    },
+    {
+      "id": "face_no_base",
+      "name": "No base",
+      "shots": [
+        "close_up",
+        "half_body",
+        "three_quarter",
+        "full_body"
+      ],
+      "themes": []
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1500 940" role="img" aria-labelledby="title desc">
+  <title id="title">Atelier logo directions</title>
+  <desc id="desc">Three exploratory Atelier Prompt Engine logo concepts using the Bronze Atelier palette. These are concepts only, not approved assets.</desc>
+  <rect width="1500" height="940" fill="#242521"/>
+  <path d="M70 64h48" stroke="#AE8B5C" stroke-width="2"/>
+  <text x="70" y="112" fill="#EEE8DC" font-family="Georgia,serif" font-size="44" letter-spacing="1">Atelier identity study</text>
+  <text x="70" y="150" fill="#BDB6A8" font-family="Arial,sans-serif" font-size="16" letter-spacing="2">BRONZE ATELIER · LOGO CONCEPTS · EXPLORATION ONLY</text>
+  <text x="1430" y="108" text-anchor="end" fill="#AE8B5C" font-family="Arial,sans-serif" font-size="14" letter-spacing="2">01 / 03</text>
+
+  <g transform="translate(70 205)">
+    <rect width="430" height="600" rx="8" fill="#30312D" stroke="#57564D"/>
+    <text x="30" y="48" fill="#AE8B5C" font-family="Arial,sans-serif" font-size="13" letter-spacing="2">DIRECTION 01</text>
+    <text x="30" y="82" fill="#EEE8DC" font-family="Georgia,serif" font-size="24">Wordmark + focus-cut A</text>
+    <path d="M185 180h30M185 180v30M245 180h-30M245 180v30M185 240h30M185 240v-30M245 240h-30M245 240v-30" fill="none" stroke="#AE8B5C" stroke-width="2"/>
+    <path d="M191 231 214 184 238 231M201 213h26" fill="none" stroke="#EEE8DC" stroke-width="4" stroke-linecap="square"/>
+    <text x="215" y="302" text-anchor="middle" fill="#EEE8DC" font-family="Georgia,serif" font-size="31" letter-spacing="5">ATELIER</text>
+    <text x="215" y="329" text-anchor="middle" fill="#BDB6A8" font-family="Arial,sans-serif" font-size="11" letter-spacing="4">PROMPT ENGINE</text>
+    <line x1="30" y1="370" x2="400" y2="370" stroke="#57564D"/>
+    <text x="30" y="408" fill="#EEE8DC" font-family="Arial,sans-serif" font-size="14" font-weight="700">Character</text>
+    <text x="30" y="438" fill="#BDB6A8" font-family="Arial,sans-serif" font-size="14">Editorial, established, studio-led.</text>
+    <text x="30" y="474" fill="#EEE8DC" font-family="Arial,sans-serif" font-size="14" font-weight="700">Best at</text>
+    <text x="30" y="504" fill="#BDB6A8" font-family="Arial,sans-serif" font-size="14">Website headers and premium documents.</text>
+    <text x="30" y="550" fill="#788071" font-family="Arial,sans-serif" font-size="12" letter-spacing="1">WORDMARK DOES MOST OF THE WORK</text>
+  </g>
+
+  <g transform="translate(535 205)">
+    <rect width="430" height="600" rx="8" fill="#30312D" stroke="#57564D"/>
+    <text x="30" y="48" fill="#AE8B5C" font-family="Arial,sans-serif" font-size="13" letter-spacing="2">DIRECTION 02</text>
+    <text x="30" y="82" fill="#EEE8DC" font-family="Georgia,serif" font-size="24">Threaded A</text>
+    <path d="M171 240 C183 213 202 183 215 177 C228 184 247 213 259 240 C241 230 230 220 215 205 C202 220 188 232 171 240 Z" fill="none" stroke="#AE8B5C" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M188 222 C204 218 225 218 242 222" fill="none" stroke="#EEE8DC" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="215" cy="177" r="4" fill="#EEE8DC"/>
+    <text x="215" y="302" text-anchor="middle" fill="#EEE8DC" font-family="Georgia,serif" font-size="31" letter-spacing="5">ATELIER</text>
+    <text x="215" y="329" text-anchor="middle" fill="#BDB6A8" font-family="Arial,sans-serif" font-size="11" letter-spacing="4">PROMPT ENGINE</text>
+    <line x1="30" y1="370" x2="400" y2="370" stroke="#57564D"/>
+    <text x="30" y="408" fill="#EEE8DC" font-family="Arial,sans-serif" font-size="14" font-weight="700">Character</text>
+    <text x="30" y="438" fill="#BDB6A8" font-family="Arial,sans-serif" font-size="14">Craft, fashion, human touch.</text>
+    <text x="30" y="474" fill="#EEE8DC" font-family="Arial,sans-serif" font-size="14" font-weight="700">Best at</text>
+    <text x="30" y="504" fill="#BDB6A8" font-family="Arial,sans-serif" font-size="14">A distinctive emblem across app and print.</text>
+    <text x="30" y="550" fill="#788071" font-family="Arial,sans-serif" font-size="12" letter-spacing="1">MOST EXPRESSIVE / MOST CUSTOM</text>
+  </g>
+
+  <g transform="translate(1000 205)">
+    <rect width="430" height="600" rx="8" fill="#30312D" stroke="#57564D"/>
+    <text x="30" y="48" fill="#AE8B5C" font-family="Arial,sans-serif" font-size="13" letter-spacing="2">DIRECTION 03</text>
+    <text x="30" y="82" fill="#EEE8DC" font-family="Georgia,serif" font-size="24">Frame mark + A</text>
+    <path d="M176 185h26M176 185v26M254 185h-26M254 185v26M176 245h26M176 245v-26M254 245h-26M254 245v-26" fill="none" stroke="#AE8B5C" stroke-width="3"/>
+    <text x="215" y="235" text-anchor="middle" fill="#EEE8DC" font-family="Georgia,serif" font-size="60">A</text>
+    <text x="215" y="302" text-anchor="middle" fill="#EEE8DC" font-family="Georgia,serif" font-size="31" letter-spacing="5">ATELIER</text>
+    <text x="215" y="329" text-anchor="middle" fill="#BDB6A8" font-family="Arial,sans-serif" font-size="11" letter-spacing="4">PROMPT ENGINE</text>
+    <line x1="30" y1="370" x2="400" y2="370" stroke="#57564D"/>
+    <text x="30" y="408" fill="#EEE8DC" font-family="Arial,sans-serif" font-size="14" font-weight="700">Character</text>
+    <text x="30" y="438" fill="#BDB6A8" font-family="Arial,sans-serif" font-size="14">Precise, modern, clearly visual.</text>
+    <text x="30" y="474" fill="#EEE8DC" font-family="Arial,sans-serif" font-size="14" font-weight="700">Best at</text>
+    <text x="30" y="504" fill="#BDB6A8" font-family="Arial,sans-serif" font-size="14">Small icons and interface placements.</text>
+    <text x="30" y="550" fill="#788071" font-family="Arial,sans-serif" font-size="12" letter-spacing="1">CLEAREST AT SMALL SIZES</text>
+  </g>
+  <text x="70" y="870" fill="#BDB6A8" font-family="Arial,sans-serif" font-size="13">Palette reference: #242521 · #30312D · #EEE8DC · #AE8B5C · #788071</text>
+  <text x="1430" y="870" text-anchor="end" fill="#788071" font-family="Arial,sans-serif" font-size="13">Not yet an approved logo</text>
+</svg>

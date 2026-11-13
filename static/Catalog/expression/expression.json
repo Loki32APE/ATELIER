@@ -1,0 +1,114 @@
+{
+  "items": [
+    {
+      "id": "expr_serene",
+      "name": "Serene calm",
+      "shots": [
+        "close_up",
+        "half_body",
+        "three_quarter",
+        "full_body"
+      ],
+      "themes": []
+    },
+    {
+      "id": "expr_confident",
+      "name": "Confident",
+      "shots": [
+        "close_up",
+        "half_body",
+        "three_quarter",
+        "full_body"
+      ],
+      "themes": []
+    },
+    {
+      "id": "expr_pensive",
+      "name": "Pensive",
+      "shots": [
+        "close_up",
+        "half_body",
+        "three_quarter",
+        "full_body"
+      ],
+      "themes": []
+    },
+    {
+      "id": "expr_joyful",
+      "name": "Joyful",
+      "shots": [
+        "close_up",
+        "half_body",
+        "three_quarter",
+        "full_body"
+      ],
+      "themes": []
+    },
+    {
+      "id": "expr_enigmatic",
+      "name": "Enigmatic half-smile",
+      "shots": [
+        "close_up",
+        "half_body",
+        "three_quarter",
+        "full_body"
+      ],
+      "themes": []
+    },
+    {
+      "id": "expr_playful",
+      "name": "Playful",
+      "shots": [
+        "close_up",
+        "half_body",
+        "three_quarter",
+        "full_body"
+      ],
+      "themes": []
+    },
+    {
+      "id": "expr_dreamy",
+      "name": "Dreamy",
+      "shots": [
+        "close_up",
+        "half_body",
+        "three_quarter",
+        "full_body"
+      ],
+      "themes": []
+    },
+    {
+      "id": "expr_fierce",
+      "name": "Fierce",
+      "shots": [
+        "close_up",
+        "half_body",
+        "three_quarter",
+        "full_body"
+      ],
+      "themes": []
+    },
+    {
+      "id": "expr_shy",
+      "name": "Shy",
+      "shots": [
+        "close_up",
+        "half_body",
+        "three_quarter",
+        "full_body"
+      ],
+      "themes": []
+    },
+    {
+      "id": "expr_bold",
+      "name": "Bold stare",
+      "shots": [
+        "close_up",
+        "half_body",
+        "three_quarter",
+        "full_body"
+      ],
+      "themes": []
+    }
+  ]
+}

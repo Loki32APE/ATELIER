@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1500 940" role="img" aria-labelledby="title desc">
+  <title id="title">Custom Atelier A mark study</title>
+  <desc id="desc">Three custom letter A studies paired with an open frame and Atelier wordmark. Exploratory only.</desc>
+  <rect width="1500" height="940" fill="#242521"/>
+  <path d="M70 64h48" stroke="#AE8B5C" stroke-width="2"/>
+  <text x="70" y="112" fill="#EEE8DC" font-family="Georgia,serif" font-size="42">A monogram · shape study</text>
+  <text x="70" y="150" fill="#BDB6A8" font-family="Arial,sans-serif" font-size="16" letter-spacing="2">KEEP THE OPEN FRAME · MAKE THE A MORE OWNABLE</text>
+
+  <g transform="translate(70 205)">
+    <rect width="430" height="600" rx="8" fill="#30312D" stroke="#57564D"/>
+    <text x="30" y="48" fill="#AE8B5C" font-family="Arial,sans-serif" font-size="13" letter-spacing="2">A1 · DRAFTED</text>
+    <text x="30" y="82" fill="#EEE8DC" font-family="Georgia,serif" font-size="23">Asymmetric pattern lines</text>
+    <path d="M170 190h24M170 190v24M260 190h-24M260 190v24M170 250h24M170 250v-24M260 250h-24M260 250v-24" fill="none" stroke="#AE8B5C" stroke-width="2.3"/>
+    <path d="M190 245 211 190 226 216M239 245 228 216" fill="none" stroke="#EEE8DC" stroke-width="4.5" stroke-linecap="square"/>
+    <path d="M202 222h17M225 222h10" fill="none" stroke="#AE8B5C" stroke-width="3"/>
+    <text x="215" y="306" text-anchor="middle" fill="#EEE8DC" font-family="Georgia,serif" font-size="31" letter-spacing="5">ATELIER</text>
+    <text x="215" y="333" text-anchor="middle" fill="#BDB6A8" font-family="Arial,sans-serif" font-size="11" letter-spacing="4">PROMPT ENGINE</text>
+    <line x1="30" y1="370" x2="400" y2="370" stroke="#57564D"/>
+    <text x="30" y="410" fill="#BDB6A8" font-family="Arial,sans-serif" font-size="14">Uneven legs and a split brass crossbar.</text>
+    <text x="30" y="446" fill="#788071" font-family="Arial,sans-serif" font-size="12" letter-spacing="1">CRAFT / PATTERN-MAKING CHARACTER</text>
+    <rect x="170" y="485" width="90" height="90" rx="8" fill="#242521" stroke="#57564D"/>
+    <path d="M185 516v-13h14M245 516v-13h-14M185 544v13h14M245 544v-13h-14" fill="none" stroke="#AE8B5C" stroke-width="1.8"/>
+    <path d="M194 548 214 505 227 526M238 548 227 526" fill="none" stroke="#EEE8DC" stroke-width="3.4"/>
+    <path d="M204 533h11M226 533h7" stroke="#AE8B5C" stroke-width="2.2"/>
+  </g>
+
+  <g transform="translate(535 205)">
+    <rect width="430" height="600" rx="8" fill="#30312D" stroke="#57564D"/>
+    <text x="30" y="48" fill="#AE8B5C" font-family="Arial,sans-serif" font-size="13" letter-spacing="2">A2 · FOLDED</text>
+    <text x="30" y="82" fill="#EEE8DC" font-family="Georgia,serif" font-size="23">Ribbon strokes, open center</text>
+    <path d="M173 190h24M173 190v24M257 190h-24M257 190v24M173 250h24M173 250v-24M257 250h-24M257 250v-24" fill="none" stroke="#AE8B5C" stroke-width="2.3"/>
+    <path d="M192 246 C201 222 211 199 216 188 C223 204 237 227 242 246" fill="none" stroke="#EEE8DC" stroke-width="8" stroke-linecap="square" stroke-linejoin="round"/>
+    <path d="M202 224 C212 220 224 220 233 224" fill="none" stroke="#AE8B5C" stroke-width="3" stroke-linecap="round"/>
+    <path d="M211 202 219 197" stroke="#AE8B5C" stroke-width="2"/>
+    <text x="215" y="306" text-anchor="middle" fill="#EEE8DC" font-family="Georgia,serif" font-size="31" letter-spacing="5">ATELIER</text>
+    <text x="215" y="333" text-anchor="middle" fill="#BDB6A8" font-family="Arial,sans-serif" font-size="11" letter-spacing="4">PROMPT ENGINE</text>
+    <line x1="30" y1="370" x2="400" y2="370" stroke="#57564D"/>
+    <text x="30" y="410" fill="#BDB6A8" font-family="Arial,sans-serif" font-size="14">A softer, continuous silhouette.</text>
+    <text x="30" y="446" fill="#788071" font-family="Arial,sans-serif" font-size="12" letter-spacing="1">FASHION / MATERIAL CHARACTER</text>
+    <rect x="170" y="485" width="90" height="90" rx="8" fill="#242521" stroke="#57564D"/>
+    <path d="M186 516v-13h14M244 516v-13h-14M186 544v13h14M244 544v-13h-14" fill="none" stroke="#AE8B5C" stroke-width="1.8"/>
+    <path d="M196 548 C203 530 213 510 215 505 C221 519 233 539 234 548" fill="none" stroke="#EEE8DC" stroke-width="5.2" stroke-linecap="square"/>
+    <path d="M202 532h26" stroke="#AE8B5C" stroke-width="2.2" stroke-linecap="round"/>
+  </g>
+
+  <g transform="translate(1000 205)">
+    <rect width="430" height="600" rx="8" fill="#30312D" stroke="#57564D"/>
+    <text x="30" y="48" fill="#AE8B5C" font-family="Arial,sans-serif" font-size="13" letter-spacing="2">A3 · CONNECTED</text>
+    <text x="30" y="82" fill="#EEE8DC" font-family="Georgia,serif" font-size="23">Frame becomes the crossbar</text>
+    <path d="M172 190h24M172 190v24M258 190h-24M258 190v24M172 250h24M172 250v-24M258 250h-24M258 250v-24" fill="none" stroke="#AE8B5C" stroke-width="2.3"/>
+    <path d="M193 245 215 188 238 245M200 222h15M215 222h26" fill="none" stroke="#EEE8DC" stroke-width="4.5" stroke-linecap="square"/>
+    <path d="M215 222h26" stroke="#AE8B5C" stroke-width="3" stroke-linecap="square"/>
+    <circle cx="241" cy="222" r="2.5" fill="#AE8B5C"/>
+    <text x="215" y="306" text-anchor="middle" fill="#EEE8DC" font-family="Georgia,serif" font-size="31" letter-spacing="5">ATELIER</text>
+    <text x="215" y="333" text-anchor="middle" fill="#BDB6A8" font-family="Arial,sans-serif" font-size="11" letter-spacing="4">PROMPT ENGINE</text>
+    <line x1="30" y1="370" x2="400" y2="370" stroke="#57564D"/>
+    <text x="30" y="410" fill="#BDB6A8" font-family="Arial,sans-serif" font-size="14">The framing gesture crosses the A.</text>
+    <text x="30" y="446" fill="#788071" font-family="Arial,sans-serif" font-size="12" letter-spacing="1">FOCUS / COMPOSITION CHARACTER</text>
+    <rect x="170" y="485" width="90" height="90" rx="8" fill="#242521" stroke="#57564D"/>
+    <path d="M186 516v-13h14M244 516v-13h-14M186 544v13h14M244 544v-13h-14" fill="none" stroke="#AE8B5C" stroke-width="1.8"/>
+    <path d="M196 548 215 505 234 548M201 532h13M214 532h22" fill="none" stroke="#EEE8DC" stroke-width="3.4"/>
+    <path d="M214 532h22" stroke="#AE8B5C" stroke-width="2.2"/>
+  </g>
+  <text x="70" y="870" fill="#BDB6A8" font-family="Arial,sans-serif" font-size="13">Compare the letter shape first; the wordmark type and stroke weights can be tuned later.</text>
+  <text x="1430" y="870" text-anchor="end" fill="#788071" font-family="Arial,sans-serif" font-size="13">Exploration only · not yet approved</text>
+</svg>

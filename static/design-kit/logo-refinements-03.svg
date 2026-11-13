@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1500 940" role="img" aria-labelledby="title desc">
+  <title id="title">Refinements of Atelier frame mark</title>
+  <desc id="desc">Three refinements of the selected frame and A concept, shown as explorations only.</desc>
+  <rect width="1500" height="940" fill="#242521"/>
+  <path d="M70 64h48" stroke="#AE8B5C" stroke-width="2"/>
+  <text x="70" y="112" fill="#EEE8DC" font-family="Georgia,serif" font-size="42">Frame mark · refinement study</text>
+  <text x="70" y="150" fill="#BDB6A8" font-family="Arial,sans-serif" font-size="16" letter-spacing="2">BRONZE ATELIER · THREE WAYS TO MAKE DIRECTION 03 MORE DISTINCTIVE</text>
+
+  <g transform="translate(70 205)">
+    <rect width="430" height="600" rx="8" fill="#30312D" stroke="#57564D"/>
+    <text x="30" y="48" fill="#AE8B5C" font-family="Arial,sans-serif" font-size="13" letter-spacing="2">03A · TAILORED FRAME</text>
+    <text x="30" y="82" fill="#EEE8DC" font-family="Georgia,serif" font-size="23">Open frame, editorial A</text>
+    <path d="M170 177h42M170 177v42M260 177h-42M260 177v42M170 253h42M170 253v-42M260 253h-42M260 253v-42" fill="none" stroke="#AE8B5C" stroke-width="2.2"/>
+    <path d="M191 239 214 187 239 239M201 218h27" fill="none" stroke="#EEE8DC" stroke-width="3.4" stroke-linecap="square"/>
+    <text x="215" y="306" text-anchor="middle" fill="#EEE8DC" font-family="Georgia,serif" font-size="31" letter-spacing="5">ATELIER</text>
+    <text x="215" y="333" text-anchor="middle" fill="#BDB6A8" font-family="Arial,sans-serif" font-size="11" letter-spacing="4">PROMPT ENGINE</text>
+    <line x1="30" y1="370" x2="400" y2="370" stroke="#57564D"/>
+    <text x="30" y="410" fill="#BDB6A8" font-family="Arial,sans-serif" font-size="14">Quiet, classic, highly legible.</text>
+    <text x="30" y="446" fill="#788071" font-family="Arial,sans-serif" font-size="12" letter-spacing="1">REFINEMENT: LIGHTER CORNERS</text>
+    <rect x="170" y="485" width="90" height="90" rx="8" fill="#242521" stroke="#57564D"/>
+    <path d="M188 504h17M188 504v17M242 504h-17M242 504v17M188 556h17M188 556v-17M242 556h-17M242 556v-17" fill="none" stroke="#AE8B5C" stroke-width="1.8"/>
+    <text x="215" y="546" text-anchor="middle" fill="#EEE8DC" font-family="Georgia,serif" font-size="42">A</text>
+  </g>
+
+  <g transform="translate(535 205)">
+    <rect width="430" height="600" rx="8" fill="#30312D" stroke="#57564D"/>
+    <text x="30" y="48" fill="#AE8B5C" font-family="Arial,sans-serif" font-size="13" letter-spacing="2">03B · CUT MONOGRAM</text>
+    <text x="30" y="82" fill="#EEE8DC" font-family="Georgia,serif" font-size="23">Custom A, frame in the letter</text>
+    <path d="M184 250 215 179 246 250M197 220h36" fill="none" stroke="#EEE8DC" stroke-width="5" stroke-linecap="square"/>
+    <path d="M177 203v-19h20M253 203v-19h-20M177 233v19h20M253 233v19h-20" fill="none" stroke="#AE8B5C" stroke-width="2.6"/>
+    <path d="M209 222h12" stroke="#AE8B5C" stroke-width="3"/>
+    <text x="215" y="306" text-anchor="middle" fill="#EEE8DC" font-family="Georgia,serif" font-size="31" letter-spacing="5">ATELIER</text>
+    <text x="215" y="333" text-anchor="middle" fill="#BDB6A8" font-family="Arial,sans-serif" font-size="11" letter-spacing="4">PROMPT ENGINE</text>
+    <line x1="30" y1="370" x2="400" y2="370" stroke="#57564D"/>
+    <text x="30" y="410" fill="#BDB6A8" font-family="Arial,sans-serif" font-size="14">More ownable; frame and initial connect.</text>
+    <text x="30" y="446" fill="#788071" font-family="Arial,sans-serif" font-size="12" letter-spacing="1">REFINEMENT: BUILT-IN FOCUS DETAIL</text>
+    <rect x="170" y="485" width="90" height="90" rx="8" fill="#242521" stroke="#57564D"/>
+    <path d="M184 518v-14h15M246 518v-14h-15M184 542v14h15M246 542v14h-15" fill="none" stroke="#AE8B5C" stroke-width="2"/>
+    <path d="M194 548 215 502 236 548M202 530h26" fill="none" stroke="#EEE8DC" stroke-width="3"/>
+  </g>
+
+  <g transform="translate(1000 205)">
+    <rect width="430" height="600" rx="8" fill="#30312D" stroke="#57564D"/>
+    <text x="30" y="48" fill="#AE8B5C" font-family="Arial,sans-serif" font-size="13" letter-spacing="2">03C · COMPACT SIGNATURE</text>
+    <text x="30" y="82" fill="#EEE8DC" font-family="Georgia,serif" font-size="23">One mark, no subtitle</text>
+    <path d="M179 191h20M179 191v20M251 191h-20M251 191v20M179 239h20M179 239v-20M251 239h-20M251 239v-20" fill="none" stroke="#AE8B5C" stroke-width="2"/>
+    <path d="M194 234 215 193 236 234M202 218h26" fill="none" stroke="#EEE8DC" stroke-width="3" stroke-linecap="square"/>
+    <text x="215" y="304" text-anchor="middle" fill="#EEE8DC" font-family="Georgia,serif" font-size="34" letter-spacing="5">ATELIER</text>
+    <line x1="30" y1="370" x2="400" y2="370" stroke="#57564D"/>
+    <text x="30" y="410" fill="#BDB6A8" font-family="Arial,sans-serif" font-size="14">Cleanest and most flexible lockup.</text>
+    <text x="30" y="446" fill="#788071" font-family="Arial,sans-serif" font-size="12" letter-spacing="1">REFINEMENT: REMOVE SMALL LABEL</text>
+    <rect x="170" y="485" width="90" height="90" rx="8" fill="#242521" stroke="#57564D"/>
+    <path d="M184 518v-14h15M246 518v-14h-15M184 542v14h15M246 542v-14h-15" fill="none" stroke="#AE8B5C" stroke-width="2"/>
+    <text x="215" y="544" text-anchor="middle" fill="#EEE8DC" font-family="Georgia,serif" font-size="47">A</text>
+  </g>
+  <text x="70" y="870" fill="#BDB6A8" font-family="Arial,sans-serif" font-size="13">Choose a refinement, or point out what still feels wrong: letterform, frame, proportions, or wordmark.</text>
+  <text x="1430" y="870" text-anchor="end" fill="#788071" font-family="Arial,sans-serif" font-size="13">Exploration only · not yet approved</text>
+</svg>
