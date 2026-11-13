@@ -1,0 +1,77 @@
+{
+  "items": [
+    {
+      "id": "ear_jhumka",
+      "name": "Jhumka",
+      "shots": [
+        "close_up",
+        "half_body",
+        "three_quarter",
+        "full_body"
+      ],
+      "themes": [
+        "haveli",
+        "mughal",
+        "wedding_mehendi",
+        "diwali"
+      ]
+    },
+    {
+      "id": "ear_chandelier",
+      "name": "Chandelier earrings",
+      "shots": [
+        "close_up",
+        "half_body",
+        "three_quarter",
+        "full_body"
+      ],
+      "themes": [
+        "bollywood_retro",
+        "wedding_mehendi"
+      ]
+    },
+    {
+      "id": "ear_studs",
+      "name": "Gold studs",
+      "shots": [
+        "close_up",
+        "half_body",
+        "three_quarter",
+        "full_body"
+      ],
+      "themes": [
+        "kolkata_monsoon",
+        "poolside_resort",
+        "kerala_onam"
+      ]
+    },
+    {
+      "id": "ear_hoops",
+      "name": "Gold hoops",
+      "shots": [
+        "close_up",
+        "half_body",
+        "three_quarter",
+        "full_body"
+      ],
+      "themes": [
+        "bollywood_retro",
+        "poolside_resort"
+      ]
+    },
+    {
+      "id": "ear_oxidised",
+      "name": "Oxidised silver drops",
+      "shots": [
+        "close_up",
+        "half_body",
+        "three_quarter",
+        "full_body"
+      ],
+      "themes": [
+        "kolkata_monsoon",
+        "holi"
+      ]
+    }
+  ]
+}

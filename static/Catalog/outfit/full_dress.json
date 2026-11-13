@@ -1,0 +1,113 @@
+{
+  "category": "outfit",
+  "group": "full_dress",
+  "items": [
+    {
+      "id": "dress_kanjeevaram_saree",
+      "name": "Kanjeevaram saree",
+      "shots": [
+        "full_body",
+        "three_quarter",
+        "half_body",
+        "close_up"
+      ],
+      "themes": [
+        "temple",
+        "kerala_onam"
+      ],
+      "crop_for": [
+        "close_up",
+        "half_body"
+      ]
+    },
+    {
+      "id": "dress_kasavu_saree",
+      "name": "Kasavu saree, gold border",
+      "shots": [
+        "full_body",
+        "three_quarter",
+        "half_body",
+        "close_up"
+      ],
+      "themes": [
+        "kerala_onam"
+      ],
+      "crop_for": [
+        "close_up",
+        "half_body"
+      ]
+    },
+    {
+      "id": "dress_anarkali",
+      "name": "Anarkali",
+      "shots": [
+        "full_body",
+        "three_quarter",
+        "half_body",
+        "close_up"
+      ],
+      "themes": [
+        "diwali",
+        "mughal",
+        "wedding_mehendi"
+      ],
+      "crop_for": [
+        "close_up",
+        "half_body"
+      ]
+    },
+    {
+      "id": "dress_bridal_lehenga",
+      "name": "Bridal lehenga set",
+      "shots": [
+        "full_body",
+        "three_quarter",
+        "half_body",
+        "close_up"
+      ],
+      "themes": [
+        "wedding_mehendi",
+        "haveli"
+      ],
+      "crop_for": [
+        "close_up",
+        "half_body"
+      ]
+    },
+    {
+      "id": "dress_evening_gown",
+      "name": "Evening gown",
+      "shots": [
+        "full_body",
+        "three_quarter",
+        "half_body",
+        "close_up"
+      ],
+      "themes": [
+        "poolside_resort",
+        "bollywood_retro"
+      ],
+      "crop_for": [
+        "close_up",
+        "half_body"
+      ]
+    },
+    {
+      "id": "dress_resort_kaftan",
+      "name": "Resort kaftan",
+      "shots": [
+        "full_body",
+        "three_quarter",
+        "half_body",
+        "close_up"
+      ],
+      "themes": [
+        "poolside_resort"
+      ],
+      "crop_for": [
+        "close_up",
+        "half_body"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "items": [
+    {
+      "id": "neck_kundan_choker",
+      "name": "Kundan choker",
+      "shots": [
+        "close_up",
+        "half_body",
+        "three_quarter",
+        "full_body"
+      ],
+      "themes": [
+        "haveli",
+        "mughal",
+        "wedding_mehendi"
+      ]
+    },
+    {
+      "id": "neck_haar",
+      "name": "Long temple haar",
+      "shots": [
+        "close_up",
+        "half_body",
+        "three_quarter",
+        "full_body"
+      ],
+      "themes": [
+        "temple",
+        "kerala_onam",
+        "wedding_mehendi"
+      ]
+    },
+    {
+      "id": "neck_pearl_sautoir",
+      "name": "Pearl sautoir",
+      "shots": [
+        "close_up",
+        "half_body",
+        "three_quarter",
+        "full_body"
+      ],
+      "themes": [
+        "mughal",
+        "bollywood_retro"
+      ]
+    },
+    {
+      "id": "neck_chain",
+      "name": "Layered gold chain",
+      "shots": [
+        "close_up",
+        "half_body",
+        "three_quarter",
+        "full_body"
+      ],
+      "themes": [
+        "kolkata_monsoon",
+        "poolside_resort",
+        "diwali"
+      ]
+    },
+    {
+      "id": "neck_pendant",
+      "name": "Pendant necklace",
+      "shots": [
+        "close_up",
+        "half_body",
+        "three_quarter",
+        "full_body"
+      ],
+      "themes": [
+        "poolside_resort",
+        "holi"
+      ]
+    }
+  ]
+}

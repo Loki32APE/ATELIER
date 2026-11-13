@@ -1,0 +1,52 @@
+{
+  "items": [
+    {
+      "id": "pose_sitting",
+      "name": "Sitting",
+      "shots": [
+        "half_body",
+        "three_quarter",
+        "full_body"
+      ],
+      "themes": []
+    },
+    {
+      "id": "pose_standing",
+      "name": "Standing",
+      "shots": [
+        "close_up",
+        "half_body",
+        "three_quarter",
+        "full_body"
+      ],
+      "themes": []
+    },
+    {
+      "id": "pose_lying",
+      "name": "Lying down",
+      "shots": [
+        "three_quarter",
+        "full_body"
+      ],
+      "themes": []
+    },
+    {
+      "id": "pose_reclining",
+      "name": "Reclining",
+      "shots": [
+        "half_body",
+        "three_quarter",
+        "full_body"
+      ],
+      "themes": []
+    },
+    {
+      "id": "pose_walking",
+      "name": "Walking",
+      "shots": [
+        "full_body"
+      ],
+      "themes": []
+    }
+  ]
+}

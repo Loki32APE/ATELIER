@@ -1,0 +1,75 @@
+{
+  "items": [
+    {
+      "id": "eyes_kohl",
+      "name": "Kohl-lined eyes",
+      "shots": [
+        "close_up",
+        "half_body",
+        "three_quarter",
+        "full_body"
+      ],
+      "themes": [
+        "haveli",
+        "mughal",
+        "temple",
+        "wedding_mehendi"
+      ]
+    },
+    {
+      "id": "eyes_smoky",
+      "name": "Smoky eyes",
+      "shots": [
+        "close_up",
+        "half_body",
+        "three_quarter",
+        "full_body"
+      ],
+      "themes": [
+        "bollywood_retro"
+      ]
+    },
+    {
+      "id": "eyes_winged",
+      "name": "Winged liner",
+      "shots": [
+        "close_up",
+        "half_body",
+        "three_quarter",
+        "full_body"
+      ],
+      "themes": [
+        "mughal",
+        "bollywood_retro"
+      ]
+    },
+    {
+      "id": "eyes_gold_shadow",
+      "name": "Gold shadow",
+      "shots": [
+        "close_up",
+        "half_body",
+        "three_quarter",
+        "full_body"
+      ],
+      "themes": [
+        "diwali",
+        "wedding_mehendi"
+      ]
+    },
+    {
+      "id": "eyes_natural",
+      "name": "Natural eyes",
+      "shots": [
+        "close_up",
+        "half_body",
+        "three_quarter",
+        "full_body"
+      ],
+      "themes": [
+        "kolkata_monsoon",
+        "kerala_onam"
+      ]
+    }
+  ]
+}

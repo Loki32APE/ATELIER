@@ -1,0 +1,47 @@
+{
+  "items": [
+    {
+      "id": "part_centre",
+      "name": "Centre parting",
+      "shots": [
+        "close_up",
+        "half_body",
+        "three_quarter",
+        "full_body"
+      ],
+      "themes": [
+        "haveli",
+        "mughal",
+        "temple",
+        "wedding_mehendi"
+      ]
+    },
+    {
+      "id": "part_side",
+      "name": "Side parting",
+      "shots": [
+        "close_up",
+        "half_body",
+        "three_quarter",
+        "full_body"
+      ],
+      "themes": [
+        "bollywood_retro",
+        "kolkata_monsoon"
+      ]
+    },
+    {
+      "id": "part_none",
+      "name": "No visible parting (swept back)",
+      "shots": [
+        "close_up",
+        "half_body",
+        "three_quarter",
+        "full_body"
+      ],
+      "themes": [
+        "poolside_resort"
+      ]
+    }
+  ]
+}

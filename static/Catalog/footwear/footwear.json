@@ -1,0 +1,70 @@
+{
+  "items": [
+    {
+      "id": "foot_mojari",
+      "name": "Mojari",
+      "shots": [
+        "full_body"
+      ],
+      "themes": [
+        "haveli",
+        "mughal",
+        "temple"
+      ]
+    },
+    {
+      "id": "foot_heels",
+      "name": "Strappy heels",
+      "shots": [
+        "full_body"
+      ],
+      "themes": [
+        "bollywood_retro",
+        "wedding_mehendi"
+      ]
+    },
+    {
+      "id": "foot_juttis",
+      "name": "Embroidered juttis",
+      "shots": [
+        "full_body"
+      ],
+      "themes": [
+        "haveli",
+        "kolkata_monsoon"
+      ]
+    },
+    {
+      "id": "foot_sandals",
+      "name": "Flat sandals",
+      "shots": [
+        "full_body"
+      ],
+      "themes": [
+        "poolside_resort",
+        "kerala_onam"
+      ]
+    },
+    {
+      "id": "foot_barefoot",
+      "name": "Barefoot",
+      "shots": [
+        "full_body"
+      ],
+      "themes": [
+        "kerala_onam",
+        "poolside_resort"
+      ]
+    },
+    {
+      "id": "foot_sneakers",
+      "name": "White sneakers",
+      "shots": [
+        "full_body"
+      ],
+      "themes": [
+        "holi"
+      ]
+    }
+  ]
+}

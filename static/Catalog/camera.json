@@ -1,0 +1,35 @@
+{
+  "category": "camera",
+  "devices": {
+    "smartphone": {
+      "label": "Smartphone camera",
+      "lenses": [
+        { "id": "main_24mm", "label": "Main Wide Lens (24mm eq., f/1.8)", "prompt": "shot on smartphone main sensor, crisp computational clarity" },
+        { "id": "ultrawide_13mm", "label": "Ultra-Wide (13mm eq., dynamic perspective)", "prompt": "smartphone ultra-wide lens, slight edge distortion, expansive view" },
+        { "id": "telephoto_77mm", "label": "Telephoto Zoom (3x Optical, 77mm eq.)", "prompt": "smartphone telephoto lens, natural background compression" },
+        { "id": "portrait_50mm", "label": "Portrait Lens (2x Optical, 50mm eq.)", "prompt": "smartphone 50mm portrait sensor, flattering facial proportions" }
+      ],
+      "mobile_photography": [
+        { "id": "portrait_mode", "label": "Portrait Mode (Depth Map Bokeh)", "prompt": "computational portrait mode bokeh, sharp subject cutout" },
+        { "id": "night_mode", "label": "Night Mode (Long Exposure Glow)", "prompt": "smartphone night mode, bright low-light shadow recovery, glowing highlights" },
+        { "id": "smart_hdr", "label": "Smart HDR (Balanced Highlights)", "prompt": "mobile Smart HDR processing, balanced dynamic range, vivid natural tones" },
+        { "id": "selfie_mode", "label": "Front Camera Selfie Mode", "prompt": "front-facing selfie camera angle, intimate close perspective, natural skin texture" }
+      ]
+    },
+    "dedicated": {
+      "label": "Dedicated cinema or DSLR camera",
+      "lenses": [
+        { "id": "24mm", "label": "24mm Wide Prime", "prompt": "24mm wide-angle prime lens, deep environmental context" },
+        { "id": "35mm", "label": "35mm Storytelling Prime", "prompt": "35mm editorial prime lens, natural human-eye perspective" },
+        { "id": "50mm", "label": "50mm Standard Prime", "prompt": "50mm standard prime lens, zero distortion, true-to-life proportions" },
+        { "id": "85mm", "label": "85mm Portrait Master", "prompt": "85mm portrait prime lens, flattering facial compression, creamy optical falloff" }
+      ],
+      "apertures": [
+        { "id": "f1_4", "label": "f/1.4 (Razor-Thin DOF / Melted Bokeh)", "prompt": "at f/1.4 aperture, razor-thin depth of field, melted specular bokeh" },
+        { "id": "f2_8", "label": "f/2.8 (Editorial Subject Isolation)", "prompt": "at f/2.8 aperture, smooth background separation, tack-sharp eyes" },
+        { "id": "f4_0", "label": "f/4.0 (Balanced Context & Subject)", "prompt": "at f/4.0 aperture, balanced subject sharpness and recognizable setting" },
+        { "id": "f8_0", "label": "f/8.0 (Deep Studio Edge-to-Edge Sharpness)", "prompt": "at f/8.0 aperture, crisp edge-to-edge focus across garment and background" }
+      ]
+    }
+  }
+}

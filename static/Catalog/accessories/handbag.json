@@ -1,0 +1,71 @@
+{
+  "items": [
+    {
+      "id": "bag_potli",
+      "name": "Potli bag",
+      "shots": [
+        "half_body",
+        "three_quarter",
+        "full_body"
+      ],
+      "themes": [
+        "haveli",
+        "mughal",
+        "wedding_mehendi",
+        "diwali"
+      ]
+    },
+    {
+      "id": "bag_clutch",
+      "name": "Clutch",
+      "shots": [
+        "half_body",
+        "three_quarter",
+        "full_body"
+      ],
+      "themes": [
+        "bollywood_retro",
+        "poolside_resort"
+      ]
+    },
+    {
+      "id": "bag_crossbody",
+      "name": "Crossbody bag",
+      "shots": [
+        "half_body",
+        "three_quarter",
+        "full_body"
+      ],
+      "themes": [
+        "kolkata_monsoon",
+        "holi"
+      ]
+    },
+    {
+      "id": "bag_basket",
+      "name": "Wicker basket",
+      "shots": [
+        "half_body",
+        "three_quarter",
+        "full_body"
+      ],
+      "themes": [
+        "kerala_onam",
+        "mughal"
+      ]
+    },
+    {
+      "id": "bag_tote",
+      "name": "Tote bag",
+      "shots": [
+        "half_body",
+        "three_quarter",
+        "full_body"
+      ],
+      "themes": [
+        "poolside_resort",
+        "kolkata_monsoon"
+      ]
+    }
+  ]
+}

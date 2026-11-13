@@ -1,0 +1,84 @@
+{
+  "version": "layer4-v1",
+  "categories": [
+    {
+      "id": "jewellery",
+      "files": [
+        "ear",
+        "nose",
+        "hair",
+        "forehead",
+        "neck",
+        "waist",
+        "hand",
+        "foot"
+      ]
+    },
+    {
+      "id": "accessories",
+      "files": [
+        "handbag",
+        "shawl",
+        "gloves",
+        "other"
+      ]
+    },
+    {
+      "id": "outfit",
+      "files": [
+        "top",
+        "bottom",
+        "full_dress"
+      ]
+    },
+    {
+      "id": "footwear",
+      "files": [
+        "footwear"
+      ]
+    },
+    {
+      "id": "makeup",
+      "files": [
+        "face",
+        "eyes",
+        "lips",
+        "skin_texture"
+      ]
+    },
+    {
+      "id": "hairstyle",
+      "files": [
+        "length",
+        "colour",
+        "partition",
+        "style"
+      ]
+    },
+    {
+      "id": "pose",
+      "files": [
+        "type",
+        "object"
+      ]
+    },
+    {
+      "id": "expression",
+      "files": [
+        "expression"
+      ]
+    },
+    {
+      "id": "gaze",
+      "files": [
+        "gaze"
+      ]
+    },
+    {
+      "id": "art_style",
+      "files": [
+        "quality"
+      ]
+    }
+  ]
+}

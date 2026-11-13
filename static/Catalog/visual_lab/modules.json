@@ -1,0 +1,746 @@
+{
+  "version": "visual-lab-catalog-v1",
+  "modules": {
+    "appearance_identity": {
+      "basic": [
+        {
+          "id": "presentation",
+          "label": "Gender presentation",
+          "type": "select",
+          "options": [
+            "Feminine",
+            "Masculine",
+            "Androgynous",
+            "Unspecified"
+          ]
+        },
+        {
+          "id": "age_range",
+          "label": "Age range",
+          "type": "select",
+          "options": [
+            "Young adult",
+            "Adult",
+            "Middle-aged adult",
+            "Mature adult",
+            "Unspecified"
+          ]
+        },
+        {
+          "id": "skin_tone",
+          "label": "Skin tone",
+          "type": "select",
+          "options": [
+            "Fair",
+            "Light-medium",
+            "Medium",
+            "Olive",
+            "Tan",
+            "Deep",
+            "Unspecified"
+          ]
+        }
+      ],
+      "advanced": [
+        {
+          "id": "facial_structure",
+          "label": "Facial structure",
+          "type": "select",
+          "options": [
+            "Soft oval",
+            "Round",
+            "Heart-shaped",
+            "Square",
+            "Long / oblong",
+            "Defined cheekbones",
+            "Natural / unspecified"
+          ]
+        },
+        {
+          "id": "skin_texture",
+          "label": "Skin texture",
+          "type": "select",
+          "options": [
+            "Natural visible pores",
+            "Soft realistic texture",
+            "Freckles visible",
+            "Fine lines preserved",
+            "No artificial smoothing"
+          ]
+        },
+        {
+          "id": "hair_direction",
+          "label": "Hair direction",
+          "type": "select",
+          "options": [
+            "Natural loose hair",
+            "Straight",
+            "Soft waves",
+            "Defined curls",
+            "Braided",
+            "Tied back",
+            "Updo"
+          ]
+        },
+        {
+          "id": "body_proportions",
+          "label": "Body proportions",
+          "type": "select",
+          "options": [
+            "Natural proportions",
+            "Slim",
+            "Soft / fuller figure",
+            "Pear-shaped",
+            "Hourglass",
+            "Athletic",
+            "Preserve reference proportions"
+          ]
+        },
+        {
+          "id": "identity_preservation",
+          "label": "Identity preservation",
+          "type": "select",
+          "options": [
+            "Preserve facial identity exactly",
+            "Preserve natural age and features",
+            "No beautification or reshaping",
+            "Keep natural skin texture"
+          ]
+        }
+      ]
+    },
+    "outfit_styling": {
+      "basic": [
+        {
+          "id": "garment_type",
+          "label": "Garment type",
+          "type": "select",
+          "options": [
+            "Sambalpuri saree",
+            "Silk saree",
+            "Cotton saree",
+            "Lehenga",
+            "Salwar suit",
+            "Kurti",
+            "Western dress",
+            "Blouse and skirt",
+            "Editorial fashion",
+            "Custom outfit"
+          ]
+        },
+        {
+          "id": "garment_colour",
+          "label": "Main colour",
+          "type": "select",
+          "options": [
+            "Black",
+            "White / ivory",
+            "Red",
+            "Maroon",
+            "Blue",
+            "Light blue",
+            "Green",
+            "Emerald",
+            "Yellow / mustard",
+            "Pink",
+            "Orange",
+            "Purple",
+            "Neutral / beige",
+            "Custom colour"
+          ]
+        },
+        {
+          "id": "fabric",
+          "label": "Fabric",
+          "type": "select",
+          "options": [
+            "Sambalpuri cotton",
+            "Cotton",
+            "Silk",
+            "Chiffon",
+            "Georgette",
+            "Organza",
+            "Velvet",
+            "Linen",
+            "Satin",
+            "Denim",
+            "Custom fabric"
+          ]
+        }
+      ],
+      "advanced": [
+        {
+          "id": "neckline",
+          "label": "Neckline",
+          "type": "select",
+          "options": [
+            "Round",
+            "V-neck",
+            "Sweetheart",
+            "Square",
+            "Boat neck",
+            "High neck",
+            "Collared",
+            "Custom neckline"
+          ]
+        },
+        {
+          "id": "sleeves",
+          "label": "Sleeves",
+          "type": "select",
+          "options": [
+            "Sleeveless",
+            "Cap sleeves",
+            "Short sleeves",
+            "Elbow length",
+            "Three-quarter",
+            "Full sleeves",
+            "Off shoulder",
+            "Custom sleeves"
+          ]
+        },
+        {
+          "id": "drapery",
+          "label": "Drapery / fit",
+          "type": "select",
+          "options": [
+            "Natural saree drape",
+            "Pleated front drape",
+            "Open pallu",
+            "Shoulder pallu",
+            "Structured tailored fit",
+            "Relaxed natural fit",
+            "Flowing silhouette"
+          ]
+        },
+        {
+          "id": "embroidery",
+          "label": "Embroidery / surface detail",
+          "type": "multi",
+          "options": [
+            "Zari border",
+            "Traditional ikat motifs",
+            "Floral embroidery",
+            "Mirror work",
+            "Thread embroidery",
+            "Sequins",
+            "Printed pattern",
+            "Handwoven texture"
+          ]
+        },
+        {
+          "id": "jewellery",
+          "label": "Jewellery",
+          "type": "multi",
+          "options": [
+            "Gold jhumka",
+            "Gold chain",
+            "Necklace",
+            "Bangles",
+            "Waist chain",
+            "Nose ring",
+            "Anklets",
+            "Minimal jewellery",
+            "No jewellery"
+          ]
+        },
+        {
+          "id": "footwear",
+          "label": "Footwear",
+          "type": "select",
+          "options": [
+            "Barefoot",
+            "Traditional sandals",
+            "Heels",
+            "Flats",
+            "Boots",
+            "Not visible / unspecified"
+          ]
+        }
+      ]
+    },
+    "poses_expressions": {
+      "basic": [
+        {
+          "id": "pose",
+          "label": "Body pose",
+          "type": "select",
+          "options": [
+            "Standing",
+            "Sitting",
+            "Seated",
+            "Walking",
+            "Leaning",
+            "Kneeling",
+            "Lying",
+            "Dynamic movement",
+            "Natural candid pose"
+          ]
+        },
+        {
+          "id": "framing",
+          "label": "Framing",
+          "type": "select",
+          "options": [
+            "Close-up",
+            "Half body",
+            "Three-quarter",
+            "Full body",
+            "Wide shot"
+          ]
+        },
+        {
+          "id": "expression",
+          "label": "Expression",
+          "type": "select",
+          "options": [
+            "Soft natural smile",
+            "Serene",
+            "Confident",
+            "Thoughtful",
+            "Joyful",
+            "Intense",
+            "Neutral",
+            "Playful"
+          ]
+        }
+      ],
+      "advanced": [
+        {
+          "id": "hand_placement",
+          "label": "Hand placement",
+          "type": "select",
+          "options": [
+            "Hands relaxed by sides",
+            "One hand on waist",
+            "Hands gently clasped",
+            "One hand touching hair",
+            "Hands resting on surface",
+            "Holding an object",
+            "Natural asymmetrical gesture"
+          ]
+        },
+        {
+          "id": "head_tilt",
+          "label": "Head angle",
+          "type": "select",
+          "options": [
+            "Straight",
+            "Slight left tilt",
+            "Slight right tilt",
+            "Looking over shoulder",
+            "Chin slightly raised",
+            "Chin slightly lowered"
+          ]
+        },
+        {
+          "id": "gaze",
+          "label": "Gaze direction",
+          "type": "select",
+          "options": [
+            "Looking at camera",
+            "Looking slightly off-camera",
+            "Looking down",
+            "Looking up",
+            "Side profile gaze",
+            "Eyes closed"
+          ]
+        },
+        {
+          "id": "weight_distribution",
+          "label": "Weight distribution",
+          "type": "select",
+          "options": [
+            "Even stance",
+            "Weight on left leg",
+            "Weight on right leg",
+            "Hip relaxed to one side",
+            "Seated balanced posture",
+            "Natural movement"
+          ]
+        }
+      ]
+    },
+    "themes_environment": {
+      "basic": [
+        {
+          "id": "environment",
+          "label": "Environment",
+          "type": "select",
+          "options": [
+            "Indoor",
+            "Outdoor",
+            "Studio",
+            "Home interior",
+            "Architectural location",
+            "Nature setting"
+          ]
+        },
+        {
+          "id": "location",
+          "label": "Location",
+          "type": "select",
+          "options": [
+            "Modern home",
+            "Royal haveli",
+            "Palace courtyard",
+            "Garden",
+            "Temple courtyard",
+            "Urban street",
+            "Beach resort",
+            "Minimal studio",
+            "Custom location"
+          ]
+        },
+        {
+          "id": "time_of_day",
+          "label": "Time of day",
+          "type": "select",
+          "options": [
+            "Early morning",
+            "Daylight",
+            "Golden hour",
+            "Sunset",
+            "Blue hour",
+            "Night"
+          ]
+        }
+      ],
+      "advanced": [
+        {
+          "id": "architecture",
+          "label": "Architecture",
+          "type": "select",
+          "options": [
+            "Contemporary minimal",
+            "Traditional Indian",
+            "Odisha heritage",
+            "Mughal",
+            "Colonial",
+            "Rustic",
+            "Industrial",
+            "No visible architecture"
+          ]
+        },
+        {
+          "id": "weather",
+          "label": "Weather",
+          "type": "select",
+          "options": [
+            "Clear sky",
+            "Overcast",
+            "Light rain",
+            "Monsoon",
+            "Misty",
+            "Windy",
+            "Indoor / not applicable"
+          ]
+        },
+        {
+          "id": "atmosphere",
+          "label": "Atmosphere",
+          "type": "multi",
+          "options": [
+            "Quiet and intimate",
+            "Festive",
+            "Romantic",
+            "Editorial",
+            "Regal",
+            "Moody cinematic",
+            "Airy and minimal",
+            "Lived-in natural"
+          ]
+        },
+        {
+          "id": "background_detail",
+          "label": "Background detail",
+          "type": "select",
+          "options": [
+            "Soft blurred background",
+            "Visible architectural detail",
+            "Clean seamless backdrop",
+            "Layered environmental depth",
+            "Natural uncluttered setting"
+          ]
+        }
+      ]
+    },
+    "lighting_composition": {
+      "basic": [
+        {
+          "id": "lighting",
+          "label": "Lighting style",
+          "type": "select",
+          "options": [
+            "Soft natural window light",
+            "Golden hour sunlight",
+            "Diffused studio light",
+            "Cinematic side light",
+            "Backlit glow",
+            "Overcast natural light",
+            "Warm practical lighting",
+            "Low-key dramatic lighting"
+          ]
+        },
+        {
+          "id": "light_direction",
+          "label": "Light direction",
+          "type": "select",
+          "options": [
+            "Front",
+            "Side",
+            "Three-quarter",
+            "Back",
+            "Top",
+            "Window-side"
+          ]
+        },
+        {
+          "id": "shadow_quality",
+          "label": "Shadow quality",
+          "type": "select",
+          "options": [
+            "Very soft",
+            "Soft natural",
+            "Moderate contrast",
+            "Deep dramatic",
+            "Minimal shadows"
+          ]
+        }
+      ],
+      "advanced": [
+        {
+          "id": "color_temperature",
+          "label": "Colour temperature",
+          "type": "select",
+          "options": [
+            "Warm 2700K–3200K",
+            "Neutral 4000K–4500K",
+            "Daylight 5000K–5600K",
+            "Cool 6000K–7000K",
+            "Mixed practical lighting"
+          ]
+        },
+        {
+          "id": "contrast",
+          "label": "Contrast",
+          "type": "select",
+          "options": [
+            "Low contrast",
+            "Balanced contrast",
+            "High contrast",
+            "Filmic contrast"
+          ]
+        },
+        {
+          "id": "composition",
+          "label": "Composition",
+          "type": "select",
+          "options": [
+            "Rule of thirds",
+            "Centered symmetry",
+            "Negative space",
+            "Leading lines",
+            "Layered depth",
+            "Editorial off-center"
+          ]
+        },
+        {
+          "id": "depth_of_field",
+          "label": "Depth of field",
+          "type": "select",
+          "options": [
+            "Deep focus",
+            "Moderate depth",
+            "Shallow depth",
+            "Creamy bokeh",
+            "Subject and environment both clear"
+          ]
+        }
+      ]
+    },
+    "camera_photography": {
+      "basic": [
+        {
+          "id": "camera_type",
+          "label": "Camera type",
+          "type": "select",
+          "options": [
+            "Professional full-frame camera",
+            "Mirrorless camera",
+            "DSLR",
+            "Smartphone camera",
+            "Medium format",
+            "Film camera"
+          ]
+        },
+        {
+          "id": "focal_length",
+          "label": "Focal length",
+          "type": "select",
+          "options": [
+            "24mm wide",
+            "35mm documentary",
+            "50mm natural perspective",
+            "85mm portrait",
+            "105mm portrait / detail",
+            "135mm compression",
+            "200mm telephoto"
+          ]
+        },
+        {
+          "id": "aperture",
+          "label": "Aperture",
+          "type": "select",
+          "options": [
+            "f/1.4",
+            "f/1.8",
+            "f/2.0",
+            "f/2.8",
+            "f/4",
+            "f/5.6",
+            "f/8"
+          ]
+        }
+      ],
+      "advanced": [
+        {
+          "id": "shutter_speed",
+          "label": "Shutter speed",
+          "type": "select",
+          "options": [
+            "1/50s",
+            "1/100s",
+            "1/125s",
+            "1/200s",
+            "1/250s",
+            "1/500s",
+            "1/1000s"
+          ]
+        },
+        {
+          "id": "iso",
+          "label": "ISO",
+          "type": "select",
+          "options": [
+            "ISO 50",
+            "ISO 100",
+            "ISO 200",
+            "ISO 400",
+            "ISO 800",
+            "ISO 1600"
+          ]
+        },
+        {
+          "id": "lens_character",
+          "label": "Lens character",
+          "type": "select",
+          "options": [
+            "Natural perspective",
+            "Soft cinematic bokeh",
+            "Crisp editorial detail",
+            "Vintage lens rendering",
+            "Compressed background",
+            "Minimal distortion"
+          ]
+        },
+        {
+          "id": "colour_science",
+          "label": "Colour science",
+          "type": "select",
+          "options": [
+            "Natural skin tones",
+            "Warm filmic colour",
+            "Kodak Portra-inspired",
+            "Neutral digital",
+            "Muted cinematic palette",
+            "Rich saturated colour"
+          ]
+        }
+      ]
+    },
+    "output_rendering": {
+      "basic": [
+        {
+          "id": "aspect_ratio",
+          "label": "Aspect ratio",
+          "type": "select",
+          "options": [
+            "1:1",
+            "4:5",
+            "3:4",
+            "2:3",
+            "9:16",
+            "16:9",
+            "21:9"
+          ]
+        },
+        {
+          "id": "orientation",
+          "label": "Orientation",
+          "type": "select",
+          "options": [
+            "Portrait",
+            "Landscape",
+            "Square"
+          ]
+        },
+        {
+          "id": "resolution",
+          "label": "Resolution",
+          "type": "select",
+          "options": [
+            "Standard",
+            "High resolution",
+            "4K",
+            "8K UHD"
+          ]
+        },
+        {
+          "id": "realism_level",
+          "label": "Realism level",
+          "type": "select",
+          "options": [
+            "Photorealistic",
+            "Hyper-realistic",
+            "Cinematic realism",
+            "Editorial realism",
+            "Stylized realism"
+          ]
+        }
+      ],
+      "advanced": [
+        {
+          "id": "render_detail",
+          "label": "Render detail",
+          "type": "multi",
+          "options": [
+            "Natural skin texture",
+            "Fine fabric weave",
+            "Accurate garment folds",
+            "Detailed embroidery",
+            "Realistic hands",
+            "Natural anatomy",
+            "Subtle film grain",
+            "Clean edge detail"
+          ]
+        },
+        {
+          "id": "negative_constraints",
+          "label": "Avoid",
+          "type": "multi",
+          "options": [
+            "Plastic skin",
+            "Over-smoothed face",
+            "Unnatural anatomy",
+            "Extra fingers",
+            "Distorted hands",
+            "Artificial body reshaping",
+            "Over-sharpening",
+            "Watermarks and text"
+          ]
+        }
+      ]
+    }
+  }
+}

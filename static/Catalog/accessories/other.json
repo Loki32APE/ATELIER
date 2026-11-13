@@ -1,0 +1,72 @@
+{
+  "items": [
+    {
+      "id": "acc_fan",
+      "name": "Peacock fan",
+      "shots": [
+        "half_body",
+        "three_quarter",
+        "full_body"
+      ],
+      "themes": [
+        "mughal",
+        "haveli"
+      ]
+    },
+    {
+      "id": "acc_umbrella",
+      "name": "Umbrella",
+      "shots": [
+        "close_up",
+        "half_body",
+        "three_quarter",
+        "full_body"
+      ],
+      "themes": [
+        "kolkata_monsoon",
+        "holi"
+      ]
+    },
+    {
+      "id": "acc_sunglasses",
+      "name": "Sunglasses (held)",
+      "shots": [
+        "close_up",
+        "half_body",
+        "three_quarter",
+        "full_body"
+      ],
+      "themes": [
+        "poolside_resort",
+        "bollywood_retro"
+      ]
+    },
+    {
+      "id": "acc_scarf",
+      "name": "Silk scarf",
+      "shots": [
+        "close_up",
+        "half_body",
+        "three_quarter",
+        "full_body"
+      ],
+      "themes": [
+        "poolside_resort",
+        "bollywood_retro"
+      ]
+    },
+    {
+      "id": "acc_hat",
+      "name": "Sun hat",
+      "shots": [
+        "close_up",
+        "half_body",
+        "three_quarter",
+        "full_body"
+      ],
+      "themes": [
+        "poolside_resort"
+      ]
+    }
+  ]
+}
